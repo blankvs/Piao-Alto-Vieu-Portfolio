@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+.Yeah {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.HeaderLogo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+}
+
+.HeaderWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.LinkSpread {
+    display: flex;
+    align-items: row;
+    list-style-type: none;
+}
+
+.LinkAbout {
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: thin;
+    letter-spacing: 1.5px;
+}
+
+.LinkWebsites {
+    padding-right: 30px;
+}
+
+.LinkDesign {
+    padding-right: 30px;
+}
+
+.LinkContact {
+    padding-right: 30px;
+}
+
