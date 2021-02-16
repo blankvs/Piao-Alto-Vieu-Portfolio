@@ -5,7 +5,7 @@
 }
 
 body {
-
+    height: 200vh;
 }
 
 .Yeah {
@@ -17,17 +17,24 @@ body {
 .HeaderLogo {
     font-family: 'Times New Roman', Times, serif;
     font-size: 35px;
+    letter-spacing: 2.5px;
+    font-weight: 200;
 }
 
 .HeaderWrapper {
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 .LinkSpread {
     display: flex;
     align-items: row;
     list-style-type: none;
+    padding-top: 7.5px;
+    /* transform: translateX(-50%) translateY(-50%); */
 }
 
 .LinkAbout {
@@ -38,17 +45,155 @@ body {
     font-style: italic;
     font-weight: thin;
     letter-spacing: 1.5px;
+    
+}
+
+.LinkAbout::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: width .3s;
+}
+
+.LinkAbout:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.LinkWebsites::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: width .3s;
+}
+
+.LinkWebsites:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.LinkDesign::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: width .3s;
+}
+
+.LinkDesign:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.LinkContact::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: width .3s;
+}
+
+.LinkContact:hover::after {
+    width: 100%;
+    transition: width .3s;
 }
 
 .LinkWebsites {
     padding-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: thin;
+    letter-spacing: 1.5px;
 }
 
 .LinkDesign {
     padding-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: thin;
+    letter-spacing: 1.5px;
 }
 
 .LinkContact {
-    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: thin;
+    letter-spacing: 1.5px;
 }
 
+/* //20px padding */
+
+.LandingH1Name {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 60px;
+    font-style: italic;
+    margin-bottom: -10px;
+    letter-spacing: 10px;
+}
+
+.LandingH1Description {
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+}
+
+.LandingWrapper {
+    height: 300px;
+    width: 90%;
+    border-left: white 2px solid;
+    margin-left: 117.5px;
+    margin-top: 50px;
+    padding-top: 215px;
+    padding-left: 150px;
+}
+
+.LeftLineLanding {
+    height: 300px;
+    width: 600px;
+    border-left:  white 2px solid;
+    margin-left: 117.5px;
+
+}
+
+.GitIcon {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 10px;
+}
+
+.LinkedinIcon {
+    height: 30px;
+    width: 30px;
+    /* margin-: 5px; */
+}
+
+.Icon2 {
+    height: 100px;
+    width: 50px;
+    /* border: white 2px solid; */
+    margin-left: 103.5px;
+    padding-top: 12.5px;
+}
+
+.IconWrapper {
+    display: flex;
+    align-items: column;
+}
+
+li {
+    padding-left: 40px;
+}
