@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom'
 import Github from '../assets/Github.png'
 import Linkedin from '../assets/Linkedin.png'
 import Dunes from '../assets/Dunes.jpg'
+import Grain from '../assets/Grain.png'
+import Landing2 from '../assets/Landing2.png'
+import Skills from '../assets/Skills.png'
 import '../css/Landing.css'
 
 
@@ -11,21 +14,22 @@ function Landing() {
 
 
     return (
-        <div className="Yeah" style={{ backgroundImage: `url(${Dunes})` }}>
-            {/* <img className="LandingImageDunes" src={ Dunes }> */}
+        <div className="Yeah" style={{ backgroundImage: `url(${Landing2})` }} >
             <div className="HeaderWrapper">
                 <h1 className="HeaderLogo">PIAO ALTO VIEU</h1>
                 <ul className="LinkSpread">
+                    <li><Link className="LinkWebsites" to="/">HOME</Link></li>
                     <li><Link className="LinkAbout" to="/About">ABOUT</Link></li>
                     <li><Link className="LinkWebsites" to="/Websites">WEBSITES</Link></li>
                     <li><Link className="LinkDesign" to="/Design">DESIGN</Link></li>
                     <li><Link className="LinkContact" to="/Contact">CONTACT</Link></li>
+
                 </ul>
             </div>
             <div className="LandingWrapper">
                 <div className="LandingUpperBox">
                     <h1 className="LandingH1Name">SERGIO VEGA</h1>
-                    <h1 className="LandingH1Description">FULL STACK WEB DEVELOPER</h1>
+                    <h1 className="LandingH1Description">FULL STACK WEB DEVELOPER / DIGITAL MEDIA SPECIALIST</h1>
                 </div>
                 {/*  */}
                 <div className="LandingLowerBox"></div>
@@ -42,7 +46,9 @@ function Landing() {
                     </Link>
                 </div>
             </div>
-            <div className="LeftLineLanding"></div>
+            <div className="LeftLineLanding">
+                <img className="Skills" src={Skills}></img>
+            </div>
             {/* // </img> */}
         </div>
     )
