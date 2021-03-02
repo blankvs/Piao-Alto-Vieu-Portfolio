@@ -17,37 +17,77 @@
     margin-left: 150px; 
     margin-top: 35px; 
     box-sizing: border-box;
+    overflow: hidden;
 } 
 
 .slide {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     min-width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     transition: 0.5s;
     overflow: hidden;
 }
 
 .goLeft {
-    top: 50%;
-    left: 0;
-    /* transform: translateY(-50%); */
-    width: 10%;
-    height: 100%;
+    color: white;
+    border: none;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif; 
+    font-style: italic; 
+    cursor: pointer;
 }
 
 .goRight {
-    top: 50%;
-    right: 100%;
-    /* transform: translateY(-50%); */
-    width: 10%;
-    height: 100%;
+    color: white; 
+    border: none; 
+    padding: 0; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-style: italic; 
+    cursor: pointer; 
+    font-weight: thin; 
+    letter-spacing: 1.5px; 
 }
 
+.buttonWrap {
+    margin-left: 435px; 
+    display: flex; 
+    align-items: row; 
+    justify-content: space-between; 
+    height: 50px; 
+    width: 125px; 
+    /* border: white solid 1px; */
+    font-weight: bold; 
+    letter-spacing: 1.5px; 
+    margin-top: 55px; 
+}
 
+.goRight::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
 
+.goRight:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.goLeft::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+
+.goLeft:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
 
 
 
@@ -76,8 +116,9 @@
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-
+    text-indent: 35px;
 }
+
 
 .paragraphBox {
     height: 200px;
@@ -91,3 +132,18 @@
     display: flex;
     align-items: row;
 }
+
+.WebTit1 {
+    font-family: 'Times New Roman', Times, serif; 
+    font-style: italic; 
+    color: white; 
+    font-size: 35px; 
+    letter-spacing: 1.5px; 
+    margin-bottom: 5px;
+    
+}
+
+img {
+    height: 100%;
+}
+

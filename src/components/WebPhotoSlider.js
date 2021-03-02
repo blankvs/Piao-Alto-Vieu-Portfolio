@@ -1,11 +1,18 @@
 import React, { useState } from "react"
 import '../css/Website.css'
 import ImgComp from './ImgComp'
-// import i1 from ""
+import NNLand from '../assets/NNLand.png'
+import NNReg from '../assets/NNReg.png'
+import NNN1 from '../assets/NNN1.png'
+import NNN2 from '../assets/NNN2.png'
+import NNN3 from '../assets/NNN3.png'
+import NNN4 from '../assets/NNN4.png'
+import NNA from '../assets/NNA.png'
+
 
 function Slider() {
 
-    let sliderArr = [1, 2, 3, 4, 5]
+    let sliderArr = [<ImgComp  src={NNLand} ></ImgComp>, <ImgComp src={NNReg} />, <ImgComp src={NNN1} />, <ImgComp src={NNN2} />, <ImgComp src={NNN3} />, <ImgComp src={NNN4} />, <ImgComp src={NNA} />]
     const [x, setX] = useState(0)
     const goLeft = () => {
         console.log(x)
@@ -14,24 +21,27 @@ function Slider() {
     }
     const goRight = () => {
         console.log(x)
-            x === -100 * (sliderArr.length - 1) ? setX(0) : setX(x - 100)
+        x === -100 * (sliderArr.length - 1) ? setX(0) : setX(x - 100)
     }
 
 
     return (
-        <div className="slider">
+        <div>
+            <div className="slider">
+                {sliderArr.map((item, index) => {
+                    return (
+                        <div key={index} className="slide" style={{ transform: `translateY(${x}%)` }}>
+                            {item}
+                        </div>
+                    )
+                })
+                }
 
-            { sliderArr.map((item, index) => {
-                return (
-                    <div key={index} className="slide" style={{ transform: `translateY(${x}%)` }}>
-                        <button className="goLeft" onClick={goLeft}>left</button>
-                        {item}
-                        <button className="goRight" onClick={goRight}>right</button>
-                    </div>
-                )
-            })
-            }
-
+            </div>
+            <div className="buttonWrap">
+                <p className="goLeft" onClick={goLeft}>PREV</p>
+                <p className="goRight" onClick={goRight}>FWD</p>
+            </div>
         </div>
     )
 }

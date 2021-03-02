@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import Sky from '../assets/Sky.png'
 import WebPhotoSlider from './WebPhotoSlider'
+import NNLand from '../assets/NNLand.png'
 import '../css/Website.css'
 
 
@@ -27,6 +28,7 @@ class Websites extends Component {
                     <div className="WebDes">
                         <WebPhotoSlider />
                         <div className="paragraphBox">
+                            <h2 className="WebTit1">NOTE NETT</h2>
                             <p className="NOTENETTDescription">With NOTE NETT, I Formulated a Note/Todo App, applying full CRUD in where you can check off, edit, delete & pin notes. I utilized bcrypt for Authentication and a secure user experience (UX/UI) and implemented a 3rd party technology, Firebase as a real time customizable user storage/database.</p>
                         </div>
                     </div>

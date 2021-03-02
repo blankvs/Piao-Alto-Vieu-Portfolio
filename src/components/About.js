@@ -25,7 +25,7 @@ function About() {
             <div className="aboutBoxUp">
                 <img className="SergioImg" src={Sergio} alt={Sergio}></img>
                 <div className="pargraphFlow">
-                    <p className="sergioParagraph">18 With the desire and passion at using technology to leave a lasting impact on this world. Fashionista, musical artist, boxer, cruiser, thrill seeker. Nothing like lasting memories.</p>
+                    <p className="sergioParagraph">18, With the desire and passion at using technology to leave a lasting impact on this world. Fashionista, musical artist, boxer, cruiser, thrill seeker. Nothing like lasting memories.</p>
                 </div>
             </div>
                 <div className="IconAbout">
