@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Github from '../assets/Github.png'
 import Linkedin from '../assets/Linkedin.png'
@@ -6,12 +7,17 @@ import Dunes from '../assets/Dunes.jpg'
 import Grain from '../assets/Grain.png'
 import Landing2 from '../assets/Landing2.png'
 import Skills from '../assets/Skills.png'
+import Three from '../assets/Three.png'
 import '../css/Landing.css'
 
 
 function Landing() {
 
+    const [isMenuOpen, setIsMenuOpen] = useState(false)
 
+    function toggleMenu() {
+        setIsMenuOpen(!isMenuOpen)
+    }
 
     return (
         <div className="Yeah" style={{ backgroundImage: `url(${Landing2})` }} >
@@ -23,8 +29,23 @@ function Landing() {
                     <li><Link className="LinkWebsites" to="/Websites">WEBSITES</Link></li>
                     <li><Link className="LinkDesign" to="/Design">DESIGN</Link></li>
                     <li><Link className="LinkContact" to="/Contact">CONTACT</Link></li>
-
                 </ul>
+
+                <img className="ThreeMenu"
+                    onClick={toggleMenu}
+                    src={Three}
+                />
+
+                <div className={`mobileNav ${isMenuOpen ? null : "mobileNavHide"}`}>
+                    <ul className="LinkSpread">
+                        <li><Link className="LinkWebsitesMob" to="/">HOME</Link></li>
+                        <li><Link className="LinkAboutMob" to="/About">ABOUT</Link></li>
+                        <li><Link className="LinkWebsitesMob" to="/Websites">WEBSITES</Link></li>
+                        <li><Link className="LinkDesignMob" to="/Design">DESIGN</Link></li>
+                        <li><Link className="LinkContactMob" to="/Contact">CONTACT</Link></li>
+                    </ul>
+                </div>
+
             </div>
             <div className="LandingWrapper">
                 <div className="LandingUpperBox">

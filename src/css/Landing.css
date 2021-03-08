@@ -5,7 +5,7 @@
 }
 
 body {
-    height: 200vh;
+    height: 100vh;
     width: 100vw;
 }
 
@@ -167,9 +167,9 @@ body {
 .LeftLineLanding {
     height: 300px;
     width: 600px;
-    border-left:  white 2px solid;
+    border-left:  white 2px solid; 
     margin-left: 117.5px;
-
+    
 }
 
 .GitIcon {
@@ -204,4 +204,76 @@ li {
 .Skills {
     margin-left: 150px;
     height: 40%;
+}
+
+.ThreeMenu {
+    height: 33px;
+    width: 33px;
+    display: none;
+}
+
+.MobileNavHide {
+    height: 0;
+    padding: 0;
+    opacity: 0;
+  }
+
+@media (max-width: 600px) {
+    .LinkSpread{
+        display: none;
+    }
+    .ThreeMenu {
+        display: inline-block;
+    }
+    .LandingWrapper {
+        margin-left: 40px;
+        padding-left: 20px;
+        border-left: white solid 2px;
+        height: 250px;
+        width: 290px;
+        padding-top: 80px;
+        border-left: solid white 1px;
+
+    }
+    .LandingH1Name {
+        font-size: 35px;
+    }
+    .Skills {
+        height: 35%;
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+    .LeftLineLanding {
+        margin-left: 40px;
+        width: 290px;
+        height: 250px;
+        border-left: solid white 1px;
+    }
+    .Icon2 {
+        margin-left: 26px;
+    }
+    .LandingH1Name {
+        font-size: 60px;
+        letter-spacing: 1px;
+        line-height: 57px;
+    }
+    .LandingH1Description {
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding-top: 15px;
+    }
+    .HeaderWrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+    .HeaderLogo {
+        /* font-size: 25px; */
+    }
+}
+
+/* YUHHHHHHHHH */
+
+@media (min-width: 600px) {
+
 }
