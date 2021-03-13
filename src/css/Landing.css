@@ -40,6 +40,10 @@ body {
     /* transform: translateX(-50%) translateY(-50%); */
 }
 
+.move {
+    position: left;
+}
+
 .LinkAbout {
     padding-right: 30px;
     text-decoration: none;
@@ -212,11 +216,16 @@ li {
     display: none;
 }
 
-.MobileNavHide {
-    height: 0;
-    padding: 0;
-    opacity: 0;
-  }
+.cc {
+    color: white;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 65px;
+    margin-left: 40px;
+    letter-spacing: 0.1px;
+}
 
 @media (max-width: 600px) {
     .LinkSpread{
@@ -226,14 +235,13 @@ li {
         display: inline-block;
     }
     .LandingWrapper {
-        margin-left: 40px;
+        margin-left: 33px;
         padding-left: 20px;
         border-left: white solid 2px;
         height: 250px;
         width: 290px;
-        padding-top: 80px;
+        padding-top: 100px;
         border-left: solid white 1px;
-
     }
     .LandingH1Name {
         font-size: 35px;
@@ -241,16 +249,16 @@ li {
     .Skills {
         height: 35%;
         margin-left: 15px;
-        margin-top: 20px;
+        /* margin-top: 20px; */
     }
     .LeftLineLanding {
-        margin-left: 40px;
+        margin-left: 33px;
         width: 290px;
         height: 250px;
         border-left: solid white 1px;
     }
     .Icon2 {
-        margin-left: 26px;
+        margin-left: 19px;
     }
     .LandingH1Name {
         font-size: 60px;
@@ -265,10 +273,19 @@ li {
     .HeaderWrapper {
         padding-left: 20px;
         padding-right: 20px;
-
     }
     .HeaderLogo {
         /* font-size: 25px; */
+    }
+    .cc {
+        color: white;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 55px;
+        margin-left: 20px;
+        letter-spacing: 0.1px;
     }
 }
 
@@ -277,3 +294,27 @@ li {
 @media (min-width: 600px) {
 
 }
+
+.mobileNavHide {
+    /* height: 0;
+    padding: 0;
+    opacity: 0; */
+    display: none;
+  }
+
+.mobileBox {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 75%;
+    
+}
+
+.LinkWebsitesMob {
+    opacity: 100%;
+    color: white;
+}
+
+/* .yerr {
+    display: none;
+} */
