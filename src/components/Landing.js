@@ -25,17 +25,11 @@ function Landing() {
         menu =
             <div className="fixBox">
                 <div className="mobileBox">
-                    <div className="yerr">
-                        <img className="ThreeMenu"
-                            src={Three}
-                            onClick={() => setIsMenuOpen(!isMenuOpen)}
-                        />
-                    </div>
                     <p><Link className="LinkWebsitesMob" to="/">HOME</Link></p>
-                    <p><Link className="LinkAboutMob" to="/About">ABOUT</Link></p>
+                    <p><Link className="LinkWebsitesMob" to="/About">ABOUT</Link></p>
                     <p><Link className="LinkWebsitesMob" to="/Websites">WEBSITES</Link></p>
-                    <p><Link className="LinkDesignMob" to="/Design">DESIGN</Link></p>
-                    <p><Link className="LinkContactMob" to="/Contact">CONTACT</Link></p>
+                    <p><Link className="LinkWebsitesMob" to="/Design">DESIGN</Link></p>
+                    <p><Link className="LinkWebsitesMob" to="/Contact">CONTACT</Link></p>
                 </div>
             </div>
     }
@@ -47,6 +41,12 @@ function Landing() {
                 <div className="HeaderWrapper">
                     <h1 className="HeaderLogo">PIAO ALTO VIEU</h1>
                     <div className="move">
+                    <div className="yerr">
+                        <img className="ThreeMenu"
+                            src={Three}
+                            onClick={() => setIsMenuOpen(!isMenuOpen)}
+                        />
+                    </div>
                         <ul className="LinkSpread">
                             <li><Link className="LinkWebsites" to="/">HOME</Link></li>
                             <li><Link className="LinkAbout" to="/About">ABOUT</Link></li>
@@ -56,12 +56,6 @@ function Landing() {
                         </ul>
                     </div>
 
-                    <div className="yerr">
-                        <img className="ThreeMenu"
-                            src={Three}
-                            onClick={() => setIsMenuOpen(!isMenuOpen)}
-                        />
-                    </div>
                 </div>
 
                 {/* <div className={`mobileNav ${isMenuOpen ? null : "mobileNavHide"}`}>

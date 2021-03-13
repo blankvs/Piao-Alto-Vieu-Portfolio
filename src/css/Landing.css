@@ -222,12 +222,13 @@ li {
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
     font-weight: 500;
-    margin-top: 65px;
+    margin-top: 60px;
     margin-left: 40px;
     letter-spacing: 0.1px;
 }
 
-@media (max-width: 600px) {
+
+@media (max-width: 1220px) {
     .LinkSpread{
         display: none;
     }
@@ -239,7 +240,7 @@ li {
         padding-left: 20px;
         border-left: white solid 2px;
         height: 250px;
-        width: 290px;
+        width: 90%;
         padding-top: 100px;
         border-left: solid white 1px;
     }
@@ -247,7 +248,7 @@ li {
         font-size: 35px;
     }
     .Skills {
-        height: 35%;
+        height: 30%;
         margin-left: 15px;
         /* margin-top: 20px; */
     }
@@ -283,7 +284,7 @@ li {
         font-family: 'Times New Roman', Times, serif;
         font-size: 15px;
         font-weight: 500;
-        margin-top: 55px;
+        margin-top: 35px;
         margin-left: 20px;
         letter-spacing: 0.1px;
     }
@@ -291,8 +292,66 @@ li {
 
 /* YUHHHHHHHHH */
 
-@media (min-width: 600px) {
-
+@media (max-width: 600px) {
+    .LinkSpread{
+        display: none;
+    }
+    .ThreeMenu {
+        display: inline-block;
+    }
+    .LandingWrapper {
+        margin-left: 33px;
+        padding-left: 20px;
+        border-left: white solid 2px;
+        height: 250px;
+        width: 290px;
+        padding-top: 100px;
+        border-left: solid white 1px;
+    }
+    .LandingH1Name {
+        font-size: 35px;
+    }
+    .Skills {
+        height: 30%;
+        margin-left: 15px;
+        /* margin-top: 20px; */
+    }
+    .LeftLineLanding {
+        margin-left: 33px;
+        width: 290px;
+        height: 250px;
+        border-left: solid white 1px;
+    }
+    .Icon2 {
+        margin-left: 19px;
+    }
+    .LandingH1Name {
+        font-size: 60px;
+        letter-spacing: 1px;
+        line-height: 57px;
+    }
+    .LandingH1Description {
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding-top: 15px;
+    }
+    .HeaderWrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .HeaderLogo {
+        /* font-size: 25px; */
+    }
+    .cc {
+        color: white;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 35px;
+        margin-left: 20px;
+        letter-spacing: 0.1px;
+    }
 }
 
 .mobileNavHide {
@@ -303,16 +362,42 @@ li {
   }
 
 .mobileBox {
-    height: 100%;
-    width: 100%;
+    height: 65px;
+    width: 100vw;
     background-color: black;
-    opacity: 75%;
-    
+    display: flex;
+    align-items: column;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-right: 10px;
+    word-wrap: break-word;
+    padding-top: 20px;
 }
 
+
 .LinkWebsitesMob {
-    opacity: 100%;
-    color: white;
+        padding-right: 30px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-weight: thin;
+        letter-spacing: 1.5px;
+        font-size: 10px;
+}
+
+.LinkWebsitesMob::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+
+.LinkWebsitesMob:hover::after {
+    width: 100%;
+    transition: width .3s;
 }
 
 /* .yerr {
