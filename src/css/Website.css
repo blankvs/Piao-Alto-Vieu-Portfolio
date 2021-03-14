@@ -6,15 +6,15 @@
     font-size: 60px; 
     letter-spacing: 1.5px; 
     font-weight: 600; 
-    margin-left: 150px; 
-    margin-top: 100px; 
+    margin-left: 100px; 
+    margin-top: 40px; 
 } 
 
 .slider { 
     border: 2px solid  white; 
     width: 700px; 
     height: 400px; 
-    margin-left: 150px; 
+    margin-left: 100px; 
     margin-top: 35px; 
     box-sizing: border-box;
     overflow: hidden;
@@ -49,7 +49,7 @@
 }
 
 .buttonWrap {
-    margin-left: 435px; 
+    margin-left: 375px; 
     display: flex; 
     align-items: row; 
     justify-content: space-between; 
@@ -119,10 +119,9 @@
     text-indent: 35px;
 }
 
-
 .paragraphBox {
     height: 200px;
-    width: 500px;
+    width: 40%;
     /* border: white 1px solid; */
     margin-top: 35px;
     margin-left: 55px;
@@ -147,3 +146,32 @@ img {
     height: 100%;
 }
 
+
+
+
+@media (max-width: 1220px) {
+    .slider {
+        width: 600px; 
+        height: 300px; 
+    }
+}
+
+@media (max-width: 600px) {
+    .slider {
+        width: 345px; 
+        height: 195px; 
+        margin-left: 35px;
+    }
+    .paragraphBox {
+        margin-left: -345px;
+        margin-top: 324px;
+        width: 85%;
+    }
+    .WebH1 {
+        margin-left: 30px;
+    }
+    .buttonWrap {
+        margin-left: 143px;
+        margin-top: 40px;
+    }
+}

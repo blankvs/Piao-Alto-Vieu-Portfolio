@@ -30,6 +30,10 @@ body {
     padding-top: 20px;
     padding-left: 40px;
     padding-right: 40px;
+    background-color: black;
+    height: 128px;
+    width: 100vw;
+    padding-top: 45px;
 }
 
 .LinkSpread {
@@ -159,21 +163,37 @@ body {
 }
 
 .LandingWrapper {
-    height: 300px;
+    height: 250px;
     width: 90%;
     border-left: white 2px solid;
     margin-left: 117.5px;
-    margin-top: 50px;
-    padding-top: 215px;
+    /* margin-top: 60px; */
+    padding-top: 172px;
     padding-left: 150px;
 }
 
 .LeftLineLanding {
-    height: 300px;
+    height: 250px;
     width: 600px;
     border-left:  white 2px solid; 
     margin-left: 117.5px;
     
+}
+
+.footer {
+    /* padding-left: 75px; */
+    padding-right: 40px;
+    background-color: black;
+    height: 128px;
+    width: 100vw;
+    padding-top: 57.2px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+#stepTwo {  
+    margin-top: 20px;
 }
 
 .GitIcon {
@@ -222,7 +242,7 @@ li {
     font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
     font-weight: 500;
-    margin-top: 60px;
+    /* margin-top: 60px; */
     margin-left: 40px;
     letter-spacing: 0.1px;
 }
@@ -241,7 +261,6 @@ li {
         border-left: white solid 2px;
         height: 250px;
         width: 90%;
-        padding-top: 100px;
         border-left: solid white 1px;
     }
     .LandingH1Name {
@@ -284,7 +303,7 @@ li {
         font-family: 'Times New Roman', Times, serif;
         font-size: 15px;
         font-weight: 500;
-        margin-top: 35px;
+        /* margin-top: 35px; */
         margin-left: 20px;
         letter-spacing: 0.1px;
     }
@@ -348,7 +367,7 @@ li {
         font-family: 'Times New Roman', Times, serif;
         font-size: 15px;
         font-weight: 500;
-        margin-top: 35px;
+        margin-top: 0px;
         margin-left: 20px;
         letter-spacing: 0.1px;
     }

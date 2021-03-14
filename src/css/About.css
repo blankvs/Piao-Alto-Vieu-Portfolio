@@ -1,7 +1,7 @@
 .SergioImg {
     height: 400px;
     width: 400px;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 
 .AboutTag {
@@ -13,9 +13,9 @@
     letter-spacing: 1.5px;
     font-weight: 600;
     width: 105px;
-    margin-top: 150px;
+    margin-top: 40px;
     margin-bottom: 35px;
-    margin-left: 150px;
+    margin-left: 100px;
 }
 
 .aboutBoxUp {
@@ -35,7 +35,7 @@
 
 .pargraphFlow {
     height: 150px;
-    width: 800px;
+    width: 55%;
     margin-top: 100px;
 }
 
@@ -59,7 +59,71 @@
     height: 15px;
     display: flex;
     justify-content: space-between;
-    margin-left: 150px;
+    margin-left: 100px;
     margin-top: 35px;
+}
+
+@media (max-width: 1220px) {
+    .AboutTag {
+        font-size: 60px;
+        letter-spacing: 1px;
+        line-height: 57px;
+        margin-left: 37px;
+        margin-top: 30px;
+    }
+    .SergioImg {
+        height: 350px;
+        width: 350px;
+        margin-left: 33px;
+    }
+    .aboutBoxUp {
+        display: flex;
+        align-items: column;
+    }
+    .sergioParagraph {
+        font-size: 24px;
+        /* width: 300px; */
+    }
+    .Icon3 {
+        margin-top: 35px;
+        margin-left: 35px;
+    }
+    .pargraphFlow {
+        width: 90%;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .AboutTag {
+        font-size: 60px;
+        letter-spacing: 1px;
+        line-height: 57px;
+        margin-left: 37px;
+        margin-top: 30px;
+    }
+    .SergioImg {
+        height: 300px;
+        width: 300px;
+        margin-left: 33px;
+    }
+    .aboutBoxUp {
+        display: flex;
+        align-items: column;
+
+    }
+    .sergioParagraph {
+        font-size: 17px;
+        margin-left: -300px;
+        margin-top: 232px;
+        /* width: 300px; */
+    }
+    .Icon3 {
+        margin-top: 167.5px;
+        margin-left: 35px;
+    }
+    .pargraphFlow {
+        width: 10px;
+    }
 }
 
