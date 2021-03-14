@@ -127,3 +127,38 @@
     }
 }
 
+@media (max-width: 400px) {
+    .AboutTag {
+        font-size: 55px;
+        letter-spacing: 1px;
+        line-height: 57px;
+        margin-left: 37px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .SergioImg {
+        height: 230px;
+        width: 230px;
+        margin-left: 33px;
+    }
+    .aboutBoxUp {
+        display: flex;
+        align-items: column;
+    }
+    .sergioParagraph {
+        font-size: 14px;
+        margin-left: -250px;
+        margin-top: 150px;
+        /* width: 300px; */
+        width: 330px;
+        letter-spacing: normal;
+    }
+    .Icon3 {
+        margin-top: 167.5px;
+        margin-left: 35px;
+    }
+    .pargraphFlow {
+        width: 10px;
+    }
+}
+

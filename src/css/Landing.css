@@ -422,3 +422,121 @@ li {
 /* .yerr {
     display: none;
 } */
+
+@media (max-width: 400px) {
+    .LinkSpread{
+        display: none;
+    }
+    .ThreeMenu {
+        display: inline-block;
+    }
+    .LandingWrapper {
+        margin-left: 33px;
+        padding-left: 20px;
+        border-left: white solid 2px;
+        height: 150px;
+        width: 290px;
+        padding-top: 0px;
+        border-left: solid white 1px;
+    }
+    .LandingH1Name {
+        font-size: 35px;
+    }
+    .Skills {
+        height: 65%;
+        margin-left: 15px;
+        /* margin-top: 20px; */
+    }
+    .LeftLineLanding {
+        margin-left: 33px;
+        width: 290px;
+        height: 120px;
+        border-left: solid white 1px;
+    }
+    .Icon2 {
+        margin-left: 19px;
+    }
+    .LandingH1Name {
+        font-size: 60px;
+        letter-spacing: 1px;
+        line-height: 57px;
+    }
+    .LandingH1Description {
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding-top: 15px;
+    }
+    .HeaderWrapper {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .HeaderLogo {
+        /* font-size: 25px; */
+    }
+    .cc {
+        color: white;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 0px;
+        margin-left: 20px;
+        letter-spacing: 0.1px;
+    }
+    .HeaderWrapper {
+        height: 100px;
+        padding-top: 12.5px;
+    }
+    .footer {
+        height: 100px;
+    }
+    #stepTwo {
+        margin-top: 20px;
+    }
+}
+
+.mobileNavHide {
+    /* height: 0;
+    padding: 0;
+    opacity: 0; */
+    display: none;
+  }
+
+.mobileBox {
+    height: 65px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    align-items: column;
+    justify-content: space-evenly;
+    padding-left: 10px;
+    padding-right: 10px;
+    word-wrap: break-word;
+    padding-top: 20px;
+}
+
+
+.LinkWebsitesMob {
+        padding-right: 30px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-weight: thin;
+        letter-spacing: 1.5px;
+        font-size: 10px;
+}
+
+.LinkWebsitesMob::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+
+.LinkWebsitesMob:hover::after {
+    width: 100%;
+    transition: width .3s;
+}

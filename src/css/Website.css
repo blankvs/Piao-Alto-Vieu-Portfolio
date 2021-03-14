@@ -188,3 +188,33 @@ img {
         margin-top: 40px;
     }
 }
+
+@media (max-width: 400px) {
+    .slider {
+        width: 305px; 
+        height: 175px; 
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+    .paragraphBox {
+        margin-left: -310px;
+        margin-top: 230px;
+        width: 85%;
+    }
+    .WebH1 {
+        margin-left: 30px;
+        font-size: 50px;
+        margin-top: 15px;
+    }
+    .buttonWrap {
+        margin-left: 125px;
+        margin-top: 15px;
+    }
+    .WebTit1 {
+        font-size: 25px;
+    }
+    .NOTENETTDescription {
+        font-size: 11px;
+        letter-spacing: normal;
+    }
+}
