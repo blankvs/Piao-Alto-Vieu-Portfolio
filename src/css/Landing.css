@@ -489,9 +489,10 @@ li {
     }
     .footer {
         height: 100px;
+        padding-top: 42px;
     }
     #stepTwo {
-        margin-top: 20px;
+        padding-top: 0px;
     }
 }
 
