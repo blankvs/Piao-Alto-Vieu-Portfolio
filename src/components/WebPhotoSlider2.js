@@ -1,41 +1,29 @@
 import React, { useState } from "react"
 import '../css/Website.css'
-
-//IMG For NoteNett
 import ImgComp from './ImgComp'
-import NNLand from '../assets/NNLand.png'
-import NNReg from '../assets/NNReg.png'
-import NNN1 from '../assets/NNN1.png'
-import NNN2 from '../assets/NNN2.png'
-import NNN3 from '../assets/NNN3.png'
-import NNN4 from '../assets/NNN4.png'
-import NNA from '../assets/NNA.png'
 
-//IMG For Ekans
 import Ekans1 from '../assets/Ekans1.png'
 
+function Slider2() {
 
-function Slider() {
 
-    let sliderArr = [<ImgComp src={NNLand} ></ImgComp>, <ImgComp src={NNReg} />, <ImgComp src={NNN1} />, <ImgComp src={NNN2} />, <ImgComp src={NNN3} />, <ImgComp src={NNN4} />, <ImgComp src={NNA} />]
+    let ekansArr = [<ImgComp src={Ekans1} ></ImgComp>]
     const [x, setX] = useState(0)
     const goLeft = () => {
         console.log(x)
         setX(x + 100)
-        x === 0 ? setX(-100 * (sliderArr.length - 1)) : setX(x + 100)
+        x === 0 ? setX(-100 * (ekansArr.length - 1)) : setX(x + 100)
     }
     const goRight = () => {
         console.log(x)
-        x === -100 * (sliderArr.length - 1) ? setX(0) : setX(x - 100)
+        x === -100 * (ekansArr.length - 1) ? setX(0) : setX(x - 100)
     }
 
 
     return (
         <div>
-
-            {/* NOTENETT */}
-            <div className="slider">
-                {sliderArr.map((item, index) => {
+            <div className="slider-2">
+                {ekansArr.map((item, index) => {
                     return (
                         <div key={index} className="slide" style={{ transform: `translateY(${x}%)` }}>
                             {item}
@@ -53,4 +41,4 @@ function Slider() {
     )
 }
 
-export default Slider
+export default Slider2

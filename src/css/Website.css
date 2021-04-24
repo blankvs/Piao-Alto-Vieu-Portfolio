@@ -100,16 +100,17 @@
 
 
 .Yeah2 {
-    height: 100vh;
+    height: 200vh;
     width: 100vw;
     background-size: cover;
+    background-repeat: repeat-y;
 }
 
 .Yeah3 {
     height: 100vh;
     width: 100vw;
     background-size: cover;
-    transform: scaleY(-1);
+    /* transform: scaleY(-1); */
 }
 
 .NOTENETTDescription {
@@ -127,7 +128,20 @@
     margin-left: 55px;
 }
 
+.paragraphBox2 {
+    height: 200px;
+    width: 40%;
+    /* border: white 1px solid; */
+    margin-top: 35px;
+    margin-left: 55px;
+}
+
 .WebDes {
+    display: flex;
+    align-items: row;
+}
+
+.webDes-2 {
     display: flex;
     align-items: row;
 }
@@ -139,14 +153,32 @@
     font-size: 35px; 
     letter-spacing: 1.5px; 
     margin-bottom: 5px;
-    
 }
 
 img {
     height: 100%;
 }
 
+.slider-2 {
+    border: 2px solid  white; 
+    width: 700px; 
+    height: 400px; 
+    margin-left: 100px; 
+    margin-top: 35px; 
+    box-sizing: border-box;
+    overflow: hidden;
+}
 
+.link {
+    color: white;
+    font-size: 12px;
+    transition: 0.5s;
+    margin-left: 5px;
+}
+
+.link:hover {
+    color: purple;
+}
 
 
 @media (max-width: 1220px) {
@@ -155,7 +187,17 @@ img {
         height: 280px; 
         margin-left: 35px;
     }
+    .slider-2 {
+        width: 535px; 
+        height: 280px; 
+        margin-left: 35px;
+    }
     .paragraphBox {
+        margin-left: -535px;
+        margin-top: 400px;
+        width: 85%;
+    }
+    .paragraphBox2 {
         margin-left: -535px;
         margin-top: 400px;
         width: 85%;
@@ -175,7 +217,17 @@ img {
         height: 195px; 
         margin-left: 35px;
     }
+    .slider-2 {
+        width: 345px; 
+        height: 195px; 
+        margin-left: 35px;
+    }
     .paragraphBox {
+        margin-left: -345px;
+        margin-top: 324px;
+        width: 85%;
+    }
+    .paragraphBox2 {
         margin-left: -345px;
         margin-top: 324px;
         width: 85%;
@@ -196,7 +248,19 @@ img {
         margin-left: 35px;
         margin-top: 10px;
     }
+    .slider-2 {
+        width: 305px; 
+        height: 175px; 
+        margin-left: 35px;
+        margin-top: 10px;
+    }
     .paragraphBox {
+        margin-left: -310px;
+        margin-top: 230px;
+        width: 85%;
+        height: 115px;
+    }
+    .paragraphBox2 {
         margin-left: -310px;
         margin-top: 230px;
         width: 85%;
