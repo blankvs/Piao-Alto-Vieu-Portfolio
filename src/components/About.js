@@ -21,7 +21,7 @@ function About() {
                     <p><Link className="LinkWebsitesMob" to="/">HOME</Link></p>
                     <p><Link className="LinkWebsitesMob" to="/About">ABOUT</Link></p>
                     <p><Link className="LinkWebsitesMob" to="/Websites">WEBSITES</Link></p>
-                    <p><Link className="LinkWebsitesMob" to="/Design">DESIGN</Link></p>
+                    <p><Link className="LinkWebsitesMob" to="/MUSIC">MUSIC</Link></p>
                     <p><Link className="LinkWebsitesMob" to="/Contact">CONTACT</Link></p>
                 </div>
             </div>
@@ -41,7 +41,7 @@ function About() {
                     <li><Link className="LinkWebsites" to="/">HOME</Link></li>
                     <li><Link className="LinkAbout" to="/About">ABOUT</Link></li>
                     <li><Link className="LinkWebsites" to="/Websites">WEBSITES</Link></li>
-                    <li><Link className="LinkDesign" to="/Design">DESIGN</Link></li>
+                    <li><Link className="LinkDesign" to="/MUSIC">MUSIC</Link></li>
                     <li><Link className="LinkContact" to="/Contact">CONTACT</Link></li>
                 </ul>
             </div>
@@ -51,7 +51,7 @@ function About() {
             <div className="aboutBoxUp">
                 <img className="SergioImg" src={Sergio} alt={Sergio}></img>
                 <div className="pargraphFlow">
-                    <p className="sergioParagraph">18, With the desire and passion at using technology to leave a lasting impact on this world. Fashionista, musical artist, boxer, cruiser, thrill seeker. Nothing like lasting memories.</p>
+                    <p className="sergioParagraph">I'M 19 AND WILL LET YOU BE THE JUDGE OF ME. </p>
                 </div>
             </div>
             <div className="IconAbout">

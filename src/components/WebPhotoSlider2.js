@@ -3,11 +3,12 @@ import '../css/Website.css'
 import ImgComp from './ImgComp'
 
 import Ekans1 from '../assets/Ekans1.png'
+import EKANS2 from '../assets/EKANS2.png'
 
 function Slider2() {
 
 
-    let ekansArr = [<ImgComp src={Ekans1} ></ImgComp>]
+    let ekansArr = [<ImgComp src={Ekans1} />, <ImgComp src={EKANS2}/>]
     const [x, setX] = useState(0)
     const goLeft = () => {
         console.log(x)

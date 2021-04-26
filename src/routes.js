@@ -9,6 +9,6 @@ export default <Switch>
     <Route exact path="/" component = { Landing } />
     <Route path="/About" component = { About } />
     <Route path="/Websites" component = { Websites } />
-    <Route path="/Design" component = { Design } />
+    <Route path="/MUSIC" component = { Design } />
     <Route path="/Contact" component = { Contact } />
 </Switch>

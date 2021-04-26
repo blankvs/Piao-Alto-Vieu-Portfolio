@@ -1,4 +1,11 @@
 
+
+.logo-title-div-formatter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px; 
+}
+
 .designH1 {
     font-family: 'Times New Roman', Times, serif; 
     font-style: italic; 
@@ -6,6 +13,91 @@
     font-size: 60px; 
     letter-spacing: 1.5px; 
     font-weight: 600; 
-    margin-top: 75px; 
+    text-align: center;
+    margin-top: 10px;
+}
+
+.music-instructions {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    font-style: italic;
+    letter-spacing: 1.5px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.spot-organizer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spot-logo {
+    height: 50px;
+}
+
+.holder {
+    margin-right: 10%;
+    width: 50px;
+    height: 50px;
+}
+
+.tdwtsut-cover {
+    height: 220px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    margin-top: 55px;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.55);
+    transition: 0.2s ease-in-out;
+}
+
+.tdwtsut-cover:hover {
+    /* margin-top: 1px; */
+    height: 210px;
+    /* width: 190px; */
+    /* height: 0px; */
+}
+
+.tdwtsut-title {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    font-style: italic;
+    letter-spacing: 1.5px;
     text-align: center;
 }
+
+.ss-cover {
+    height: 220px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    margin-top: 55px;
+    box-shadow: 0px 0px 20px 10px rgba(0,0,0,0.55);
+    cursor:pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.ss-cover:hover {
+    height: 210px;
+}
+
+.ss-title {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    font-style: italic;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+.cover-formatter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
