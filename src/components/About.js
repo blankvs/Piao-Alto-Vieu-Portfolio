@@ -51,7 +51,7 @@ function About() {
             <div className="aboutBoxUp">
                 <img className="SergioImg" src={Sergio} alt={Sergio}></img>
                 <div className="pargraphFlow">
-                    <p className="sergioParagraph">I'M 19 AND WILL LET YOU BE THE JUDGE OF ME. </p>
+                    <p className="sergioParagraph"> </p>
                 </div>
             </div>
             <div className="IconAbout">
