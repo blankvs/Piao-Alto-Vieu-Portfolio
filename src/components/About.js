@@ -7,6 +7,7 @@ import Github from '../assets/Github.png'
 import Linkedin from '../assets/Linkedin.png'
 import Three from '../assets/Three.png'
 import '../css/About.css'
+import FAMILY from '../assets/FAMILY.jpg'
 
 function About() {
 
@@ -49,7 +50,7 @@ function About() {
 
             <h2 className="AboutTag">ABOUT</h2>
             <div className="aboutBoxUp">
-                <img className="SergioImg" src={Sergio} alt={Sergio}></img>
+                <img className="family-image" src={FAMILY} alt={FAMILY}></img>
                 <div className="pargraphFlow">
                     <p className="sergioParagraph"> </p>
                 </div>
