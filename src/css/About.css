@@ -1,29 +1,40 @@
+.background-wallpaper-about {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
 .family-image {
     height: 400px;
     width: 400px;
-    margin-left: 100px;
 }
 
-.AboutTag {
+.about-header {
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
     color: white;
     font-size: 60px;
-    border-bottom: 2px solid white;
     letter-spacing: 1.5px;
     font-weight: 600;
-    width: 105px;
-    margin-top: 40px;
-    margin-bottom: 35px;
-    margin-left: 100px;
+    margin-top: 10px;
+    text-align: center;
 }
 
-.aboutBoxUp {
+.about-formatter {
     display: flex;
-    align-items: row;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 10%;
 }
 
-.sergioParagraph {
+.paragraph-formatter {
+    height: 150px;
+    width: 55%;
+    margin-top: 10px;
+}
+
+.bio-paragraph {
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
@@ -33,10 +44,13 @@
     text-indent: 35px;
 }
 
-.pargraphFlow {
-    height: 150px;
-    width: 55%;
-    margin-top: 100px;
+.icon-formatter {
+    width: 85px;
+    height: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-top: 35px;
 }
 
 .Icon {
@@ -54,17 +68,9 @@
     width: 30px;
 }
 
-.Icon3 {
-    width: 85px;
-    height: 15px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 100px;
-    margin-top: 35px;
-}
 
 @media (max-width: 1220px) {
-    .AboutTag {
+    .about-header {
         font-size: 60px;
         letter-spacing: 1px;
         line-height: 57px;
@@ -74,91 +80,101 @@
     .family-image {
         height: 350px;
         width: 350px;
-        margin-left: 33px;
     }
-    .aboutBoxUp {
-        display: flex;
-        align-items: column;
+    .about-formatter {
+        margin-left: 5%;
     }
-    .sergioParagraph {
+    .paragraph-formatter {
+        width: 90%;
+        padding-right: 50px;
+    }
+    .bio-paragraph {
         font-size: 24px;
         /* width: 300px; */
     }
-    .Icon3 {
+    .icon-formatter {
         margin-top: 35px;
         margin-left: 35px;
-    }
-    .pargraphFlow {
-        width: 90%;
-        padding-right: 50px;
+        margin-left: 5%;
     }
 }
 
 @media (max-width: 600px) {
-    .AboutTag {
+    .about-header {
         font-size: 60px;
         letter-spacing: 1px;
         line-height: 57px;
-        margin-left: 37px;
+        margin-left: 0px;
         margin-top: 30px;
+        margin-bottom: -15px;
     }
     .family-image {
         height: 300px;
         width: 300px;
-        margin-left: 33px;
+        margin-left: 0px;
+        margin-top: 0px;
     }
-    .aboutBoxUp {
+    .about-formatter {
         display: flex;
-        align-items: column;
-
+        align-items: center;
+        flex-direction: column;
     }
-    .sergioParagraph {
+    .paragraph-formatter {
+        margin: 0;
+    }
+    .bio-paragraph {
         font-size: 17px;
-        margin-left: -300px;
-        margin-top: 232px;
-        /* width: 300px; */
+        margin-top: 20px;
+        text-align: center;
     }
-    .Icon3 {
-        margin-top: 167.5px;
-        margin-left: 35px;
-    }
-    .pargraphFlow {
-        width: 10px;
+    .icon-formatter {
+        margin-right: auto;
+        margin-top: -30px;
+        margin-left: auto;
     }
 }
 
 @media (max-width: 400px) {
-    .AboutTag {
-        font-size: 55px;
+    .background-wallpaper-about {
+        height: 110vh;
+    }
+    .about-header {
+        font-size: 40px;
         letter-spacing: 1px;
         line-height: 57px;
-        margin-left: 37px;
-        margin-top: 10px;
-        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-top: 0px;
+        margin-bottom: -15px;
     }
     .family-image {
         height: 230px;
         width: 230px;
-        margin-left: 33px;
+        margin-left: -20px;
+        margin-top: -15px;
     }
-    .aboutBoxUp {
-        display: flex;
-        align-items: column;
+    .paragraph-formatter {
+        width: 80%;
+        margin-left: -35px;
     }
-    .sergioParagraph {
+    .bio-paragraph {
         font-size: 14px;
-        margin-left: -250px;
-        margin-top: 145px;
-        /* width: 300px; */
         width: 330px;
         letter-spacing: normal;
+        text-align: center;
+        margin-left: -15px;
+        padding-right: 0;
+        text-indent: 0px;
+        margin-top: 10px;
     }
-    .Icon3 {
-        margin-top: 167.5px;
-        margin-left: 35px;
+    .icon-formatter {
+        margin-right: auto;
+        margin-top: -15px;
+        margin-left: auto;
     }
-    .pargraphFlow {
-        width: 10px;
+    .about-formatter {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
 }
 

@@ -29,7 +29,7 @@ function About() {
     }
 
     return (
-        <div className="Yeah" style={{ backgroundImage: `url(${AboutGrain2})` }} >
+        <div className="background-wallpaper-about" style={{ backgroundImage: `url(${AboutGrain2})` }} >
             <div className="HeaderWrapper">
                 <h1 className="HeaderLogo">PIAO ALTO VIEU</h1>
                 <div className="yerr">
@@ -40,31 +40,29 @@ function About() {
                 </div>
                 <ul className="LinkSpread">
                     <li><Link className="LinkWebsites" to="/">HOME</Link></li>
-                    <li><Link className="LinkAbout" to="/About">ABOUT</Link></li>
-                    <li><Link className="LinkWebsites" to="/Websites">WEBSITES</Link></li>
+                    <li><Link className="LinkAbout" to="/ABOUT">ABOUT</Link></li>
+                    <li><Link className="LinkWebsites" to="/WEBSITES">WEBSITES</Link></li>
                     <li><Link className="LinkDesign" to="/MUSIC">MUSIC</Link></li>
-                    <li><Link className="LinkContact" to="/Contact">CONTACT</Link></li>
+                    <li><Link className="LinkContact" to="/CONTACT">CONTACT</Link></li>
                 </ul>
             </div>
             {menu}
 
-            <h2 className="AboutTag">ABOUT</h2>
-            <div className="aboutBoxUp">
+            <h2 className="about-header">ABOUT</h2>
+            <div className="about-formatter">
                 <img className="family-image" src={FAMILY} alt={FAMILY}></img>
-                <div className="pargraphFlow">
-                    <p className="sergioParagraph"> </p>
+                <div className="paragraph-formatter">
+                    <p className="bio-paragraph"> MY NAME IS SERGIO VEGA AND I AM NOW 19 YEARS OF AGE. I WAS RAISED BY MY LOVELY TWO PARENTS AND AM THE ELDEST OF 3. WHEN IT COMES TO LIFE, I PLAN TO GET TO WHERE I WANNA BE, AND WILL DO SO. I ENJOY MOVING FORWARD, ADVENTURE, CREATING, COMPETING, LAUGHING AND MUCH MORE.</p>
                 </div>
             </div>
-            <div className="IconAbout">
-                <div className="Icons">
-                </div>
-                <div className="Icon3">
-                    <Link to="/https://github.com/blankvs">
-                        <img className="GitIcon2" src={Github}></img>
-                    </Link>
-                    <Link to="/https://www.linkedin.com/in/sergio-vega-902a151b9/">
-                        <img className="LinkedinIcon2" src={Linkedin}></img>
-                    </Link>
+            <div className="icons-about">
+                <div className="icon-formatter">
+                    <a href="https://github.com/blankvs">
+                        <img className="GitIcon" src={Github}></img>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sergio-vega-902a151b9/">
+                        <img className="LinkedinIcon" src={Linkedin}></img>
+                    </a>
                 </div>
             </div>
             <div className="footer">

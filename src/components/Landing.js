@@ -44,10 +44,10 @@ function Landing() {
                         </div>
                         <ul className="LinkSpread">
                             <li><Link className="LinkWebsites" to="/">HOME</Link></li>
-                            <li><Link className="LinkAbout" to="/About">ABOUT</Link></li>
-                            <li><Link className="LinkWebsites" to="/Websites">WEBSITES</Link></li>
+                            <li><Link className="LinkAbout" to="/ABOUT">ABOUT</Link></li>
+                            <li><Link className="LinkWebsites" to="/WEBSITES">WEBSITES</Link></li>
                             <li><Link className="LinkDesign" to="/MUSIC">MUSIC</Link></li>
-                            <li><Link className="LinkContact" to="/Contact">CONTACT</Link></li>
+                            <li><Link className="LinkContact" to="/CONTACT">CONTACT</Link></li>
                         </ul>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ function Landing() {
                     <div className="LandingWrapper">
                         <div className="LandingUpperBox">
                             <h1 className="LandingH1Name">SERGIO VEGA</h1>
-                            <h1 className="LandingH1Description">FULL STACK WEB DEVELOPER / DIGITAL MEDIA SPECIALIST</h1>
+                            <h1 className="LandingH1Description">FULL STACK WEB DEVELOPER || DIGITAL MEDIA SPECIALIST</h1>
                         </div>
 
                         <div className="LandingLowerBox"></div>
@@ -65,12 +65,16 @@ function Landing() {
                         <div className="Icons">
                         </div>
                         <div className="Icon2">
-                            <Link to="/https://github.com/blankvs">
-                                <img className="GitIcon" src={Github}></img>
-                            </Link>
-                            <Link to="/https://www.linkedin.com/in/sergio-vega-902a151b9/">
-                                <img className="LinkedinIcon" src={Linkedin}></img>
-                            </Link>
+                            <div>
+                                <a href="https://github.com/blankvs">
+                                    <img className="GitIcon" src={Github}></img>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.linkedin.com/in/sergio-vega-902a151b9/">
+                                    <img className="LinkedinIcon" src={Linkedin}></img>
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div className="LeftLineLanding">

@@ -1,4 +1,8 @@
-
+.background-wallpaper-music {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
 
 .logo-title-div-formatter {
     display: flex;
@@ -23,7 +27,7 @@
     font-size: 10px;
     font-style: italic;
     letter-spacing: 1.5px;
-    text-align: center;
+    text-align: center; 
     margin-top: 10px;
     font-weight: bold;
 }
@@ -42,6 +46,12 @@
     margin-right: 10%;
     width: 50px;
     height: 50px;
+}
+
+.cover-formatter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tdwtsut-cover {
@@ -95,9 +105,11 @@
     text-align: center;
 }
 
-.cover-formatter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media (max-width: 650px) {
+    .cover-formatter {
+        flex-direction: column;
+    }
+    .background-wallpaper-music {
+        height: 160vh;
+    }
 }
-

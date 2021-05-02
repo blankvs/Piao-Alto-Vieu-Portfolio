@@ -28,7 +28,7 @@ function Design() {
     }
 
     return (
-        <div className="Yeah" style={{ backgroundImage: `url(${DESIFOR})` }} >
+        <div className="background-wallpaper-music" style={{ backgroundImage: `url(${DESIFOR})` }} >
 
             <div>
                 <div className="HeaderWrapper">
@@ -41,13 +41,13 @@ function Design() {
                     </div>
                     <ul className="LinkSpread">
                         <li><Link className="LinkWebsites" to="/">HOME</Link></li>
-                        <li><Link className="LinkAbout" to="/About">ABOUT</Link></li>
-                        <li><Link className="LinkWebsites" to="/Websites">WEBSITES</Link></li>
+                        <li><Link className="LinkAbout" to="/ABOUT">ABOUT</Link></li>
+                        <li><Link className="LinkWebsites" to="/WEBSITES">WEBSITES</Link></li>
                         <li><Link className="LinkDesign" to="/MUSIC">MUSIC</Link></li>
-                        <li><Link className="LinkContact" to="/Contact">CONTACT</Link></li>
+                        <li><Link className="LinkContact" to="/CONTACT">CONTACT</Link></li>
                     </ul>
                 </div>
-            </div>
+            </div> 
             {menu}
             {/* <div className="logo-title-div-formatter"> */}
 
