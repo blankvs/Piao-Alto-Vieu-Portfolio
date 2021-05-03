@@ -4,6 +4,7 @@ import { useState } from 'react'
 import Sky from '../assets/Sky.png'
 import WebPhotoSlider from './WebPhotoSlider'
 import WebPhotoSlider2 from './WebPhotoSlider2'
+import WebPhotoSlider3 from './WebPhotoSlider3'
 import NNLand from '../assets/NNLand.png'
 import Three from '../assets/Three.png'
 import '../css/Website.css'
@@ -47,7 +48,7 @@ function Websites() {
                         <li><Link className="LinkDesign" to="/MUSIC">MUSIC</Link></li>
                         <li><Link className="LinkContact" to="/CONTACT">CONTACT</Link></li>
                     </ul>
-                </div>
+                </div> 
                 {menu}
 
                 <h1 className="WebH1">WEBSITES</h1>
@@ -61,12 +62,21 @@ function Websites() {
                 </div>
 
                 <div className="webDes-2">
+                    <WebPhotoSlider3 />
+                    <div className="paragraphBox2">
+                        <h2 className="WebTit1">VIDVIEU<a className="link" href=""></a></h2>
+                        <p className="NOTENETTDescription">With VIDVIEU, I Formulated a video viewing platform, making use of a 3rd party technology/ API. </p>
+                    </div>
+                </div>
+                
+                <div className="webDes-2">
                     <WebPhotoSlider2 />
                     <div className="paragraphBox2">
                         <h2 className="WebTit1">EKANS<a className="link" href="https://pavekans.com">https://pavekans.com</a></h2>
                         <p className="NOTENETTDescription">Ekans, a vanilla javascript, fully functional version of "Snake Game"</p>
                     </div>
                 </div>
+
 
             </div>
 
