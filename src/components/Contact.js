@@ -50,7 +50,7 @@ function Contact() {
     <div className="Yeah" style={{ backgroundImage: `url(${WATER})` }}>
       <Helmet>
         <title>PiaoAltoVieu - Contact.</title>
-        <meta name="Home" content="Home" />
+        <meta name="Contact" content="Contact information" />
       </Helmet>
       <div>
         <div className="HeaderWrapper">

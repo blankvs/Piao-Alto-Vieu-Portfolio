@@ -56,7 +56,7 @@ function Design() {
     >
       <Helmet>
         <title>PiaoAltoVieu - Music.</title>
-        <meta name="Home" content="Home" />
+        <meta name="Music" content="Sergio's Music" />
       </Helmet>
       <div>
         <div className="HeaderWrapper">

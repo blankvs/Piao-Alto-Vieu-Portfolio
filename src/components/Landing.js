@@ -56,7 +56,7 @@ function Landing() {
     <div>
       <Helmet>
         <title>PiaoAltoVieu - Home.</title>
-        <meta name="Home" content="Home" />
+        <meta name="Home" content="Home Page" />
       </Helmet>
       <div className="Yeah" style={{ backgroundImage: `url(${UPDATE})` }}>
         <div className="HeaderWrapper">
