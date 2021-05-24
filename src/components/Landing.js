@@ -8,6 +8,7 @@ import Grain from '../assets/Grain.png'
 import Landing2 from '../assets/Landing2.png'
 import Skills from '../assets/Skills.png'
 import Three from '../assets/Three.png'
+import UPDATE from '../assets/UPDATE.png'
 import '../css/Landing.css'
 
 
@@ -32,7 +33,7 @@ function Landing() {
 
     return (
         <div>
-            <div className="Yeah" style={{ backgroundImage: `url(${Landing2})` }} >
+            <div className="Yeah" style={{ backgroundImage: `url(${UPDATE})` }} >
                 <div className="HeaderWrapper">
                     <h1 className="HeaderLogo">PIAO ALTO VIEU</h1>
                     <div className="move">
@@ -56,7 +57,7 @@ function Landing() {
                     <div className="LandingWrapper">
                         <div className="LandingUpperBox">
                             <h1 className="LandingH1Name">SERGIO VEGA</h1>
-                            <h1 className="LandingH1Description">FULL STACK WEB DEVELOPER || DIGITAL MEDIA SPECIALIST</h1>
+                            <h1 className="LandingH1Description">FRONT END WEB DEVELOPER || DESIGNER</h1>
                         </div>
 
                         <div className="LandingLowerBox"></div>

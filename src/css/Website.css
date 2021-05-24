@@ -6,9 +6,10 @@
     font-size: 60px; 
     letter-spacing: 1.5px; 
     font-weight: 600; 
-    margin-left: 100px; 
-    margin-top: 40px; 
-} 
+    margin-top: 10px; 
+    text-align: center;
+    margin-bottom: 50px;
+}
 
 .slider { 
     border: 2px solid  white; 
@@ -163,10 +164,9 @@ img {
     border: 2px solid  white; 
     width: 700px; 
     height: 396px; 
-    margin-left: 100px; 
-    margin-top: 35px; 
     box-sizing: border-box;
     overflow: hidden;
+    margin-top: 25px;
 }
 
 .link {
@@ -203,7 +203,7 @@ img {
         width: 85%;
     }
     .WebH1 {
-        margin-left: 30px;
+        text-align: center;
     }
     .buttonWrap {
         margin-left: 240px;

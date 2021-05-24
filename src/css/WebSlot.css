@@ -1,0 +1,130 @@
+.slot__container {
+  height: 500px;
+  width: 100%;
+  /* border: red solid 1px; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.slot__outerTitle {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 28px;
+  font-weight: bolder;
+  font-style: italic;
+  float: left;
+  transform: rotate(-90deg);
+  /* margin-bottom: 40px; */
+  margin-left: -35px;
+  margin-right: 25px;
+}
+
+.slot__innerContainer {
+  border-left: white solid 1px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  /* margin-top: 50px; */
+  width: 92%;
+  margin-left: -90px;
+  padding-left: 40px;
+}
+
+/* LEFT */
+.slot__containerLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.slot__innerTitle {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 28px;
+  font-weight: bolder;
+  font-style: italic;
+  margin-top: -4px;
+}
+
+.slot__tempImg {
+  height: 400px;
+  border: 1px solid white;
+}
+
+.slot__buttonLeft {
+  width: 50px;
+}
+
+.slot__buttonRight {
+  width: 50px;
+}
+
+.slot__buttonWrap {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* RIGHT */
+.slot__containerRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 40px;
+}
+
+.slot__topOne {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-style: italic;
+  /* margin-top: -45px; */
+}
+
+.slot__topTwo {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 2px;
+  font-weight: normal;
+}
+
+.slot__midOne {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-style: italic;
+}
+
+.slot__midTwo {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 2px;
+  font-weight: normal;
+}
+
+.slot__bottomTitles {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.slot__botLink {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 2px;
+    font-weight: normal;
+    margin-left: 10px;
+    transition: ease-in 0.2s;
+}
+
+.slot__botLink:hover {
+    color: red;
+}

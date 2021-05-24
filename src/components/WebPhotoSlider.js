@@ -19,6 +19,7 @@ function Slider() {
 
     let sliderArr = [<ImgComp src={NNLand} ></ImgComp>, <ImgComp src={NNReg} />, <ImgComp src={NNN1} />, <ImgComp src={NNN2} />, <ImgComp src={NNN3} />, <ImgComp src={NNN4} />, <ImgComp src={NNA} />]
     const [x, setX] = useState(0)
+    
     const goLeft = () => {
         console.log(x)
         setX(x + 100)

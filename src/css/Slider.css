@@ -1,0 +1,21 @@
+
+.slider__buttonWrap {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+    
+}
+
+.slider__buttonLeft {
+    color: white;
+    height: 35px;
+    width: auto;
+    margin-right: -300px;
+}
+
+.slider__buttonRight {
+    color: white;
+    height: 35px;
+    width: auto;
+}
