@@ -32,7 +32,7 @@ function About() {
     return (
         <div className="background-wallpaper-about" style={{ backgroundImage: `url(${AboutGrain2})` }} >
         <Helmet>
-            <title>PiaoAltoVieu - About</title>
+            <title>PiaoAltoVieu - About.</title>
             <meta name="About" content="About, Sergio Vega" />
         </Helmet>
             <div className="HeaderWrapper">

@@ -10,6 +10,8 @@ import Three from "../assets/Three.png";
 import WebSlotDisney from "./WebSlotDisney";
 import WEBWRAP from "../assets/WEBWRAP.png";
 import Disney1 from "../assets/Disney1.png";
+import { Helmet } from "react-helmet";
+
 import "../css/Website.css";
 
 function Websites() {
@@ -53,6 +55,10 @@ function Websites() {
 
   return (
     <div>
+      <Helmet>
+        <title>PiaoAltoVieu - Web.</title>
+        <meta name="Home" content="Home" />
+      </Helmet>
       <div className="Yeah2" style={{ backgroundImage: `url(${WEBWRAP})` }}>
         <div className="HeaderWrapper">
           <h1 className="HeaderLogo">PIAO ALTO VIEU</h1>
