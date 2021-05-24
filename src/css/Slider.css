@@ -1,21 +1,46 @@
-
 .slider__buttonWrap {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 15px;
-    
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 15px;
 }
 
 .slider__buttonLeft {
-    color: white;
-    height: 35px;
-    width: auto;
-    margin-right: -300px;
+  color: white;
+  height: 35px;
+  width: auto;
+  margin-right: -300px;
 }
 
 .slider__buttonRight {
-    color: white;
-    height: 35px;
-    width: auto;
+  color: white;
+  height: 35px;
+  width: auto;
 }
+
+@media (max-width: 1260px) {
+  .slider__buttonWrap {
+    margin-bottom: 5px;
+    width: 100px;
+    margin-left: 300px;
+  }
+  .slider__buttonLeft {
+    margin-right: 0px;
+  }
+}
+
+@media (max-width: 845px) {
+  .slider__buttonWrap {
+      margin-left: 200px;
+      margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+    .slider__buttonWrap {
+        margin-left: 00px;
+        margin-top: 5px;
+        margin-left: 115px;
+    }
+  }
+  

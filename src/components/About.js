@@ -39,7 +39,7 @@ function About() {
                 <h1 className="HeaderLogo">PIAO ALTO VIEU</h1>
                 <div className="yerr">
                     <img className="ThreeMenu"
-                        src={Three}
+                    src={Three}
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
                     />
                 </div>

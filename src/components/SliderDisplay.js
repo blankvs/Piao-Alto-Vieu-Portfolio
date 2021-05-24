@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../css/SliderDisplay.css";
+
 import SliderImage from "./SliderImage";
 import Disney1 from "../assets/Disney1.png";
 import Disney2 from "../assets/Disney2.png";

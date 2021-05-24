@@ -1,284 +1,195 @@
-
-.WebH1 { 
-    font-family: 'Times New Roman', Times, serif; 
-    font-style: italic; 
-    color: white; 
-    font-size: 60px; 
-    letter-spacing: 1.5px; 
-    font-weight: 600; 
-    margin-top: 10px; 
-    text-align: center;
-    margin-bottom: 50px;
+.WebH1 {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  color: white;
+  font-size: 60px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
-.slider { 
-    border: 2px solid  white; 
-    width: 700px; 
-    height: 396px; 
-    margin-left: 100px; 
-    margin-top: 35px; 
-    box-sizing: border-box;
-    overflow: hidden;
-} 
+.slider {
+  border: 2px solid white;
+  width: 700px;
+  height: 396px;
+  margin-left: 100px;
+  margin-top: 35px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
 
 .slide {
-    /* border: 1px solid blue; */
-    min-width: 100%;
-    height: 100%;
-    transition: 0.5s;
-    overflow: hidden;
+  /* border: 1px solid blue; */
+  min-width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  overflow: hidden;
 }
 
 .goLeft {
-    color: white;
-    border: none;
-    padding: 0;
-    font-family: 'Times New Roman', Times, serif; 
-    font-style: italic; 
-    cursor: pointer;
+  color: white;
+  border: none;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  cursor: pointer;
 }
 
 .goRight {
-    color: white; 
-    border: none; 
-    padding: 0; 
-    font-family: 'Times New Roman', Times, serif; 
-    font-style: italic; 
-    cursor: pointer; 
-    font-weight: thin; 
-    letter-spacing: 1.5px; 
+  color: white;
+  border: none;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  cursor: pointer;
+  font-weight: thin;
+  letter-spacing: 1.5px;
 }
 
 .buttonWrap {
-    margin-left: 375px; 
-    display: flex; 
-    align-items: row; 
-    justify-content: space-between; 
-    height: 50px; 
-    width: 125px; 
-    /* border: white solid 1px; */
-    font-weight: bold; 
-    letter-spacing: 1.5px; 
-    margin-top: 55px; 
+  margin-left: 375px;
+  display: flex;
+  align-items: row;
+  justify-content: space-between;
+  height: 50px;
+  width: 125px;
+  /* border: white solid 1px; */
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  margin-top: 55px;
 }
 
 .goRight::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: white;
-    transition: width .3s;
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width 0.3s;
 }
 
 .goRight:hover::after {
-    width: 100%;
-    transition: width .3s;
+  width: 100%;
+  transition: width 0.3s;
 }
 
 .goLeft::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: white;
-    transition: width .3s;
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width 0.3s;
 }
 
 .goLeft:hover::after {
-    width: 100%;
-    transition: width .3s;
+  width: 100%;
+  transition: width 0.3s;
 }
 
-
-
-
-
-
-
-
-
-
-
 .Yeah2 {
-    height: 200vh;
-    width: 100vw;
-    background-size: cover;
-    background-repeat: repeat-y;
+  height: 200vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: repeat-y;
 }
 
 .Yeah3 {
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
-    /* transform: scaleY(-1); */
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  /* transform: scaleY(-1); */
 }
 
 .NOTENETTDescription {
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    text-indent: 35px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  text-indent: 35px;
 }
 
 .paragraphBox {
-    height: 200px;
-    width: 40%;
-    /* border: white 1px solid; */
-    margin-top: 35px;
-    margin-left: 55px;
+  height: 200px;
+  width: 40%;
+  /* border: white 1px solid; */
+  margin-top: 35px;
+  margin-left: 55px;
 }
 
 .paragraphBox2 {
-    height: 200px;
-    width: 40%;
-    /* border: white 1px solid; */
-    margin-top: 35px;
-    margin-left: 55px;
+  height: 200px;
+  width: 40%;
+  /* border: white 1px solid; */
+  margin-top: 35px;
+  margin-left: 55px;
 }
 
 .WebDes {
-    display: flex;
-    align-items: row;
+  display: flex;
+  align-items: row;
 }
 
 .webDes-2 {
-    display: flex;
-    align-items: row;
+  display: flex;
+  align-items: row;
 }
 
 .WebTit1 {
-    font-family: 'Times New Roman', Times, serif; 
-    font-style: italic; 
-    color: white; 
-    font-size: 35px; 
-    letter-spacing: 1.5px; 
-    margin-bottom: 5px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  color: white;
+  font-size: 35px;
+  letter-spacing: 1.5px;
+  margin-bottom: 5px;
 }
 
 img {
-    height: 100%;
+  height: 100%;
 }
 
 .slider-2 {
-    border: 2px solid  white; 
-    width: 700px; 
-    height: 396px; 
-    box-sizing: border-box;
-    overflow: hidden;
-    margin-top: 25px;
+  border: 2px solid white;
+  width: 700px;
+  height: 396px;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-top: 25px;
 }
 
 .link {
-    color: white;
-    font-size: 12px;
-    transition: 0.5s;
-    margin-left: 5px;
+  color: white;
+  font-size: 12px;
+  transition: 0.5s;
+  margin-left: 5px;
 }
 
 .link:hover {
-    color: purple;
+  color: purple;
 }
 
-
-@media (max-width: 1220px) {
-    .slider {
-        width: 535px; 
-        height: 280px; 
-        margin-left: 35px;
-    }
-    .slider-2 {
-        width: 535px; 
-        height: 280px; 
-        margin-left: 35px;
-    }
-    .paragraphBox {
-        margin-left: -535px;
-        margin-top: 400px;
-        width: 85%;
-    }
-    .paragraphBox2 {
-        margin-left: -535px;
-        margin-top: 400px;
-        width: 85%;
-    }
-    .WebH1 {
-        text-align: center;
-    }
-    .buttonWrap {
-        margin-left: 240px;
-        margin-top: 40px;
-    }
-}
-
-@media (max-width: 600px) {
-    .slider {
-        width: 345px; 
-        height: 195px; 
-        margin-left: 35px;
-    }
-    .slider-2 {
-        width: 345px; 
-        height: 195px; 
-        margin-left: 35px;
-    }
-    .paragraphBox {
-        margin-left: -345px;
-        margin-top: 324px;
-        width: 85%;
-    }
-    .paragraphBox2 {
-        margin-left: -345px;
-        margin-top: 324px;
-        width: 85%;
-    }
-    .WebH1 {
-        margin-left: 30px;
-    }
-    .buttonWrap {
-        margin-left: 143px;
-        margin-top: 40px;
-    }
+@media (max-width: 845px) {
+  .slider-2 {
+    border: 2px solid white;
+    width: 500px;
+    height: 285px;
+    box-sizing: border-box;
+    overflow: hidden; 
+    margin-top: 25px;
+  }
 }
 
 @media (max-width: 400px) {
-    .slider {
-        width: 305px; 
-        height: 175px; 
-        margin-left: 35px;
-        margin-top: 10px;
-    }
     .slider-2 {
-        width: 305px; 
-        height: 175px; 
-        margin-left: 35px;
-        margin-top: 10px;
-    }
-    .paragraphBox {
-        margin-left: -310px;
-        margin-top: 230px;
-        width: 85%;
-        height: 115px;
-    }
-    .paragraphBox2 {
-        margin-left: -310px;
-        margin-top: 230px;
-        width: 85%;
+      border: 2px solid white;
+      width: 335px;
+      height: 190px;
+      box-sizing: border-box;
+      overflow: hidden;
+      margin-top: 2px;
     }
     .WebH1 {
-        margin-left: 30px;
-        font-size: 50px;
-        margin-top: 12.5px;
+        margin-bottom: 40px;
     }
-    .buttonWrap {
-        margin-left: 125px;
-        margin-top: 15px;
-    }
-    .WebTit1 {
-        font-size: 25px;
-    }
-    .NOTENETTDescription {
-        font-size: 11px;
-        letter-spacing: normal;
-    }
-}
+  }

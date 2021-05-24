@@ -1,11 +1,6 @@
 import React from "react";
 import "../css/WebSlot.css";
-import Disney1 from "../assets/Disney1.png";
-import SliderDisplay from "../components/SliderDisplay";
-import DataDisney from "./DataDisney";
-import WebPhotoSlider3 from "./WebPhotoSlider3";
 import WebSlotDisneySlider from "./WebSlotDisneySlider";
-
 
 function WebSlotDisney({
   title,
@@ -15,11 +10,12 @@ function WebSlotDisney({
   webLink,
   a,
   b,
-  src,
 }) {
   return (
     <div className="slot__container">
-      <h1 className="slot__outerTitle">{title}</h1>
+      <div className="slot__outerTitleFormatter">
+        <h1 className="slot__outerTitle">{title}</h1>
+      </div>
 
       <div className="slot__innerContainer">
         <div className="slot__containerLeft">
@@ -45,12 +41,14 @@ function WebSlotDisney({
                 {gitLink}
               </a>
             </h1>
-            <h1 className="slot__bottomTitles">
-              WEBSITE LINK:
-              <a className="slot__botLink" href={b}>
-                {webLink}
-              </a>
-            </h1>
+            <div className="slot__bottomOrganizer">
+              <h1 className="slot__bottomTitles">
+                WEBSITE LINK:
+                <a className="slot__botLink" href={b}>
+                  {webLink}
+                </a>
+              </h1>
+            </div>
           </div>
         </div>
       </div>
