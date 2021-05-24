@@ -8,6 +8,7 @@ import Linkedin from '../assets/Linkedin.png'
 import Three from '../assets/Three.png'
 import '../css/About.css'
 import FAMILY from '../assets/FAMILY.jpg'
+import { Helmet } from 'react-helmet'
 
 function About() {
 
@@ -30,6 +31,10 @@ function About() {
 
     return (
         <div className="background-wallpaper-about" style={{ backgroundImage: `url(${AboutGrain2})` }} >
+        <Helmet>
+            <title>PiaoAltoVieu - About</title>
+            <meta name="About" content="About, Sergio Vega" />
+        </Helmet>
             <div className="HeaderWrapper">
                 <h1 className="HeaderLogo">PIAO ALTO VIEU</h1>
                 <div className="yerr">
