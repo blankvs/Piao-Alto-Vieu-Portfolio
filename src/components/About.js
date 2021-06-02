@@ -57,7 +57,7 @@ function About() {
             <div className="about-formatter">
                 <img className="family-image" src={FAMILY} alt={FAMILY}></img>
                 <div className="paragraph-formatter">
-                    <p className="bio-paragraph"> MY NAME IS SERGIO VEGA AND I AM NOW 19 YEARS OF AGE. I WAS RAISED BY MY TWO LOVELY PARENTS AND AM THE ELDEST OF 3. WHEN IT COMES TO LIFE, I PLAN TO GET TO WHERE I WANNA BE, AND WILL DO SO. I ENJOY MOVING FORWARD, ADVENTURE, CREATING, COMPETING, LAUGHING AND MUCH MORE.</p>
+                    <p className="bio-paragraph"> MY NAME IS SERGIO GARCIA AND I AM NOW 19 YEARS OF AGE. I WAS RAISED BY MY TWO LOVELY PARENTS AND AM THE ELDEST OF 3. WHEN IT COMES TO LIFE, I PLAN TO GET TO WHERE I WANNA BE, AND WILL DO SO. I ENJOY MOVING FORWARD, ADVENTURE, CREATING, COMPETING, LAUGHING AND MUCH MORE.</p>
                 </div>
             </div>
             <div className="icons-about">

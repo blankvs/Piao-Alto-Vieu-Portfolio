@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-bottom: 150px;
+  margin-bottom: 75px;
 }
 
 .slot__outerTitle {
@@ -19,6 +19,9 @@
   /* margin-bottom: 40px; */
   margin-left: -35px;
   margin-right: 25px;
+  width: 200px;
+  
+  text-align: center;
 }
 
 .slot__innerContainer {

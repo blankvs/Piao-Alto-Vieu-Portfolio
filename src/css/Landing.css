@@ -1,422 +1,425 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    height: 100vh;
-    width: 100vw;
+  height: 100vh;
+  width: 100vw;
 }
 
 .Yeah {
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
 }
 
 .HeaderLogo {
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 35px;
-    letter-spacing: 2.5px;
-    font-weight: 200;
-    color: white;
-    text-decoration: line-through 5px solid white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 35px;
+  letter-spacing: 2.5px;
+  font-weight: 200;
+  color: white;
+  text-decoration: line-through 5px solid white;
 }
 
 .HeaderWrapper {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    background-color: black;
-    height: 128px;
-    width: 100vw;
-    padding-top: 45px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: black;
+  height: 128px;
+  width: 100vw;
+  padding-top: 45px;
 }
 
 .LinkSpread {
-    display: flex;
-    align-items: row;
-    list-style-type: none;
-    padding-top: 7.5px;
-    /* transform: translateX(-50%) translateY(-50%); */
+  display: flex;
+  align-items: row;
+  list-style-type: none;
+  padding-top: 7.5px;
+  /* transform: translateX(-50%) translateY(-50%); */
 }
 
 .move {
-    position: left;
+  position: left;
 }
 
 .LinkAbout {
-    padding-right: 30px;
-    text-decoration: none;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    font-weight: thin;
-    letter-spacing: 1.5px;
-    
+  padding-right: 30px;
+  text-decoration: none;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: thin;
+  letter-spacing: 1.5px;
 }
 
 .LinkAbout::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: white;
-    transition: width .3s;
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width 0.3s;
 }
 
 .LinkAbout:hover::after {
-    width: 100%;
-    transition: width .3s;
+  width: 100%;
+  transition: width 0.3s;
 }
 
 .LinkWebsites::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: white;
-    transition: width .3s;
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width 0.3s;
 }
 
 .LinkWebsites:hover::after {
-    width: 100%;
-    transition: width .3s;
+  width: 100%;
+  transition: width 0.3s;
 }
 
 .LinkDesign::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: white;
-    transition: width .3s;
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width 0.3s;
 }
 
 .LinkDesign:hover::after {
-    width: 100%;
-    transition: width .3s;
+  width: 100%;
+  transition: width 0.3s;
 }
 
 .LinkContact::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: white;
-    transition: width .3s;
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width 0.3s;
 }
 
 .LinkContact:hover::after {
-    width: 100%;
-    transition: width .3s;
+  width: 100%;
+  transition: width 0.3s;
 }
 
 .LinkWebsites {
-    padding-right: 30px;
-    text-decoration: none;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    font-weight: thin;
-    letter-spacing: 1.5px;
+  padding-right: 30px;
+  text-decoration: none;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: thin;
+  letter-spacing: 1.5px;
 }
 
 .LinkDesign {
-    padding-right: 30px;
-    text-decoration: none;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    font-weight: thin;
-    letter-spacing: 1.5px;
+  padding-right: 30px;
+  text-decoration: none;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: thin;
+  letter-spacing: 1.5px;
 }
 
 .LinkContact {
-    text-decoration: none;
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    font-weight: thin;
-    letter-spacing: 1.5px;
+  text-decoration: none;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: thin;
+  letter-spacing: 1.5px;
 }
 
 /* //20px padding */
 
 .LandingH1Name {
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    font-size: 60px;
-    font-style: italic;
-    margin-bottom: -10px;
-    letter-spacing: 10px;
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  font-size: 73px;
+  font-style: italic;
+  margin-bottom: -10px;
+  letter-spacing: 10px;
 }
 
 .LandingH1Description {
-    color: white;
-    font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    letter-spacing: 5px;
+  color: white;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 5px;
 }
 
 .LandingWrapper {
-    height: 250px;
-    width: 90%;
-    border-left: white 2px solid;
-    margin-left: 117.5px;
-    /* margin-top: 60px; */
-    padding-top: 172px;
-    padding-left: 150px;
+  height: 250px;
+  width: 90%;
+  border-left: white 2px solid;
+  margin-left: 117.5px;
+  /* margin-top: 60px; */
+  padding-top: 137px;
+  padding-left: 150px;
+  
 }
 
 .LeftLineLanding {
-    height: 250px;
-    width: 600px;
-    border-left:  white 2px solid; 
-    margin-left: 117.5px;
-    
+  height: 250px;
+  width: 600px;
+  border-left: white 2px solid;
+  margin-left: 117.5px;
 }
 
 .footer {
-    /* padding-left: 75px; */
-    padding-right: 40px;
-    background-color: black;
-    height: 128px;
-    width: 100vw;
-    padding-top: 57.2px;
-    position: fixed;
-    left: 0;
-    bottom: 0;
+  /* padding-left: 75px; */
+  padding-right: 40px;
+  background-color: black;
+  height: 128px;
+  width: 100vw;
+  padding-top: 57.2px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
 }
 
-#stepTwo {  
-    margin-top: 20px;
+.stepTwo {
+}
+
+.landing__center {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-top: -128px;
 }
 
 .GitIcon {
-    height: 30px;
-    width: 30px;
-    margin-bottom: 10px;
+  height: 30px;
+  width: 30px;
+  margin-bottom: 10px;
 }
 
 .LinkedinIcon {
-    height: 30px;
-    width: 30px;
-    /* margin-: 5px; */
+  height: 30px;
+  width: 30px;
+  /* margin-: 5px; */
 }
 
 .Icon2 {
-    height: 100px;
-    width: 50px;
-    /* border: white 2px solid; */
-    margin-left: 103.5px;
-    padding-top: 12.5px;
+  height: 100px;
+  width: 50px;
+  /* border: white 2px solid; */
+  margin-left: 103.5px;
+  padding-top: 12.5px;
 }
 
 .IconWrapper {
-    display: flex;
-    align-items: column;
+  display: flex;
+  align-items: column;
 }
 
 li {
-    padding-left: 40px;
+  padding-left: 40px;
 }
 
 .Skills {
-    margin-left: 150px;
-    height: 40%;
+  margin-left: 150px;
+  height: 40%;
 }
 
 .ThreeMenu {
-    height: 33px;
-    width: 33px;
-    display: none;
+  height: 33px;
+  width: 33px;
+  display: none;
 }
 
 .cc {
-    color: white;
-    font-style: italic;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 15px;
-    font-weight: 500;
-    /* margin-top: 60px; */
-    margin-left: 40px;
-    letter-spacing: 0.1px;
+  color: white;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  font-weight: 500;
+  /* margin-top: 60px; */
+  margin-left: 40px;
+  letter-spacing: 0.1px;
 }
 
-
 @media (max-width: 1220px) {
-    .LinkSpread{
-        display: none;
-    }
-    .ThreeMenu {
-        display: inline-block;
-    }
-    .LandingWrapper {
-        margin-left: 33px;
-        padding-left: 20px;
-        border-left: white solid 2px;
-        height: 250px;
-        width: 90%;
-        border-left: solid white 1px;
-    }
-    .LandingH1Name {
-        font-size: 35px;
-    }
-    .Skills {
-        height: 30%;
-        margin-left: 15px;
-        /* margin-top: 20px; */
-    }
-    .LeftLineLanding {
-        margin-left: 33px;
-        width: 290px;
-        height: 250px;
-        border-left: solid white 1px;
-    }
-    .Icon2 {
-        margin-left: 19px;
-    }
-    .LandingH1Name {
-        font-size: 60px;
-        letter-spacing: 1px;
-        line-height: 57px;
-    }
-    .LandingH1Description {
-        font-size: 15px;
-        letter-spacing: 1px;
-        padding-top: 15px;
-    }
-    .HeaderWrapper {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .HeaderLogo {
-        /* font-size: 25px; */
-    }
-    .cc {
-        color: white;
-        font-style: italic;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 15px;
-        font-weight: 500;
-        /* margin-top: 35px; */
-        margin-left: 20px;
-        letter-spacing: 0.1px;
-    }
+  .LinkSpread {
+    display: none;
+  }
+  .ThreeMenu {
+    display: inline-block;
+  }
+  .LandingWrapper {
+    margin-left: 33px;
+    padding-left: 20px;
+    border-left: white solid 2px;
+    height: 250px;
+    width: 90%;
+    border-left: solid white 1px;
+  }
+  .LandingH1Name {
+    font-size: 35px;
+  }
+  .Skills {
+    height: 30%;
+    margin-left: 15px;
+    /* margin-top: 20px; */
+  }
+  .LeftLineLanding {
+    margin-left: 33px;
+    width: 290px;
+    height: 250px;
+    border-left: solid white 1px;
+  }
+  .Icon2 {
+    margin-left: 19px;
+  }
+  .LandingH1Name {
+    font-size: 60px;
+    letter-spacing: 1px;
+    line-height: 57px;
+  }
+  .LandingH1Description {
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-top: 15px;
+  }
+  .HeaderWrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .HeaderLogo {
+    /* font-size: 25px; */
+  }
+  .cc {
+    color: white;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    font-weight: 500;
+    /* margin-top: 35px; */
+    margin-left: 20px;
+    letter-spacing: 0.1px;
+  }
 }
 
 /* YUHHHHHHHHH */
 
 @media (max-width: 600px) {
-    .LinkSpread{
-        display: none;
-    }
-    .ThreeMenu {
-        display: inline-block;
-    }
-    .LandingWrapper {
-        margin-left: 33px;
-        padding-left: 20px;
-        border-left: white solid 2px;
-        height: 250px;
-        width: 290px;
-        padding-top: 100px;
-        border-left: solid white 1px;
-    }
-    .LandingH1Name {
-        font-size: 35px;
-    }
-    .Skills {
-        height: 30%;
-        margin-left: 15px;
-        /* margin-top: 20px; */
-    }
-    .LeftLineLanding {
-        margin-left: 33px;
-        width: 290px;
-        height: 250px;
-        border-left: solid white 1px;
-    }
-    .Icon2 {
-        margin-left: 19px;
-    }
-    .LandingH1Name {
-        font-size: 60px;
-        letter-spacing: 1px;
-        line-height: 57px;
-    }
-    .LandingH1Description {
-        font-size: 15px;
-        letter-spacing: 1px;
-        padding-top: 15px;
-    }
-    .HeaderWrapper {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .HeaderLogo {
-        /* font-size: 25px; */
-    }
-    .cc {
-        color: white;
-        font-style: italic;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 15px;
-        font-weight: 500;
-        margin-top: 0px;
-        margin-left: 20px;
-        letter-spacing: 0.1px;
-    }
+  .LinkSpread {
+    display: none;
+  }
+  .ThreeMenu {
+    display: inline-block;
+  }
+  .LandingWrapper {
+    margin-left: 33px;
+    padding-left: 20px;
+    border-left: white solid 2px;
+    height: 250px;
+    width: 290px;
+    padding-top: 100px;
+    border-left: solid white 1px;
+  }
+  .LandingH1Name {
+    font-size: 35px;
+  }
+  .Skills {
+    height: 30%;
+    margin-left: 15px;
+    /* margin-top: 20px; */
+  }
+  .LeftLineLanding {
+    margin-left: 33px;
+    width: 290px;
+    height: 250px;
+    border-left: solid white 1px;
+  }
+  .Icon2 {
+    margin-left: 19px;
+  }
+  .LandingH1Name {
+    font-size: 60px;
+    letter-spacing: 1px;
+    line-height: 57px;
+  }
+  .LandingH1Description {
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-top: 15px;
+  }
+  .HeaderWrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .HeaderLogo {
+    /* font-size: 25px; */
+  }
+  .cc {
+    color: white;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-left: 20px;
+    letter-spacing: 0.1px;
+  }
 }
 
 .mobileNavHide {
-    /* height: 0;
+  /* height: 0;
     padding: 0;
     opacity: 0; */
-    display: none;
-  }
-
-.mobileBox {
-    height: 65px;
-    width: 100vw;
-    background-color: black;
-    display: flex;
-    align-items: column;
-    justify-content: space-evenly;
-    padding-left: 10px;
-    padding-right: 10px;
-    word-wrap: break-word;
-    padding-top: 20px;
+  display: none;
 }
 
+.mobileBox {
+  height: 65px;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  align-items: column;
+  justify-content: space-evenly;
+  padding-left: 10px;
+  padding-right: 10px;
+  word-wrap: break-word;
+  padding-top: 20px;
+}
 
 .LinkWebsitesMob {
-        padding-right: 30px;
-        text-decoration: none;
-        color: white;
-        font-family: 'Times New Roman', Times, serif;
-        font-style: italic;
-        font-weight: thin;
-        letter-spacing: 1.5px;
-        font-size: 10px;
+  padding-right: 30px;
+  text-decoration: none;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: thin;
+  letter-spacing: 1.5px;
+  font-size: 10px;
 }
 
 .LinkWebsitesMob::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: white;
-    transition: width .3s;
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width 0.3s;
 }
 
 .LinkWebsitesMob:hover::after {
-    width: 100%;
-    transition: width .3s;
+  width: 100%;
+  transition: width 0.3s;
 }
 
 /* .yerr {
@@ -424,120 +427,183 @@ li {
 } */
 
 @media (max-width: 400px) {
-    .LinkSpread{
-        display: none;
-    }
-    .ThreeMenu {
-        display: inline-block;
-    }
-    .LandingWrapper {
-        margin-left: 33px;
-        padding-left: 20px;
-        border-left: white solid 2px;
-        height: 150px;
-        width: 290px;
-        padding-top: 0px;
-        border-left: solid white 1px;
-    }
-    .LandingH1Name {
-        font-size: 35px;
-    }
-    .Skills {
-        height: 65%;
-        margin-left: 15px;
-        /* margin-top: 20px; */
-    }
-    .LeftLineLanding {
-        margin-left: 33px;
-        width: 290px;
-        height: 120px;
-        border-left: solid white 1px;
-    }
-    .Icon2 {
-        margin-left: 19px;
-    }
-    .LandingH1Name {
-        font-size: 60px;
-        letter-spacing: 1px;
-        line-height: 57px;
-    }
-    .LandingH1Description {
-        font-size: 15px;
-        letter-spacing: 1px;
-        padding-top: 15px;
-    }
-    .HeaderWrapper {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .HeaderLogo {
-        /* font-size: 25px; */
-    }
-    .cc {
-        color: white;
-        font-style: italic;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 15px;
-        font-weight: 500;
-        margin-top: 0px;
-        margin-left: 20px;
-        letter-spacing: 0.1px;
-    }
-    .HeaderWrapper {
-        height: 100px;
-        padding-top: 12.5px;
-    }
-    .footer {
-        height: 100px;
-        padding-top: 42px;
-    }
-    #stepTwo {
-        padding-top: 0px;
-    }
+  .LinkSpread {
+    display: none;
+  }
+  .ThreeMenu {
+    display: inline-block;
+  }
+  .LandingWrapper {
+    margin-left: 33px;
+    padding-left: 20px;
+    border-left: white solid 2px;
+    height: 150px;
+    width: 290px;
+    padding-top: 0px;
+    border-left: solid white 1px;
+  }
+  .LandingH1Name {
+    font-size: 35px;
+  }
+  .Skills {
+    height: 65%;
+    margin-left: 15px;
+    /* margin-top: 20px; */
+  }
+
+  .LeftLineLanding {
+    margin-left: 33px;
+    width: 290px;
+    height: 120px;
+    border-left: solid white 1px;
+  }
+  .Icon2 {
+    margin-left: 19px;
+  }
+  .LandingH1Name {
+    font-size: 60px;
+    letter-spacing: 1px;
+    line-height: 57px;
+  }
+  .LandingH1Description {
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding-top: 15px;
+  }
+  .HeaderWrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .HeaderLogo {
+    /* font-size: 25px; */
+  }
+  .cc {
+    color: white;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-left: 20px;
+    letter-spacing: 0.1px;
+  }
+  .HeaderWrapper {
+    height: 100px;
+    padding-top: 12.5px;
+  }
+  .footer {
+    height: 100px;
+    padding-top: 42px;
+  }
+  #stepTwo {
+    padding-top: 0px;
+  }
 }
 
 .mobileNavHide {
-    /* height: 0;
+  /* height: 0;
     padding: 0;
     opacity: 0; */
-    display: none;
-  }
-
-.mobileBox {
-    height: 65px;
-    width: 100vw;
-    background-color: black;
-    display: flex;
-    align-items: column;
-    justify-content: space-evenly;
-    padding-left: 10px;
-    padding-right: 10px;
-    word-wrap: break-word;
-    padding-top: 20px;
+  display: none;
 }
 
+.mobileBox {
+  height: 65px;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  align-items: column;
+  justify-content: space-evenly;
+  padding-left: 10px;
+  padding-right: 10px;
+  word-wrap: break-word;
+  padding-top: 20px;
+}
 
 .LinkWebsitesMob {
-        padding-right: 30px;
-        text-decoration: none;
-        color: white;
-        font-family: 'Times New Roman', Times, serif;
-        font-style: italic;
-        font-weight: thin;
-        letter-spacing: 1.5px;
-        font-size: 10px;
+  padding-right: 30px;
+  text-decoration: none;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: thin;
+  letter-spacing: 1.5px;
+  font-size: 10px;
 }
 
 .LinkWebsitesMob::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: white;
-    transition: width .3s;
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: white;
+  transition: width 0.3s;
 }
 
 .LinkWebsitesMob:hover::after {
-    width: 100%;
-    transition: width .3s;
+  width: 100%;
+  transition: width 0.3s;
+}
+
+.landing__wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+
+}
+
+.landing__resumeLink {
+  height: 40px;
+  width: 125px;
+  border-radius: 5px;
+  border: white solid 1px;
+  background-color: transparent;
+  color: white;
+  font-size: 13.5px;
+  margin-right: 15px;
+  margin-left: 150px;
+  /* margin-top: 30px; */
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  text-align: center;
+  padding: 11px;
+  transition: ease-out 0.5s;
+}
+
+.landing__resumeLink:hover {
+  background-color: white;
+  /* opacity: 95%; */
+  color: black;
+}
+
+.landing__youtubeLink {
+  height: 40px;
+  width: 125px;
+  border-radius: 5px;
+  border: white solid 1px;
+  background-color: transparent;
+  color: white;
+  font-size: 13.5px;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  transition: ease-out 0.5s;
+  cursor: pointer;
+}
+
+.landing__youtubeLink:hover {
+  background-color: white;
+  /* opacity: 95%; */
+  color: black;
+}
+
+.DT__text {
+  color: white;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-weight: 100;
+  opacity: 10%;
+  /* text-decoration: line-through 1px ; */
+  /* margin-top: -30px; */
 }

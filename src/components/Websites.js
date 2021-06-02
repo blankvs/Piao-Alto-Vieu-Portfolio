@@ -1,16 +1,21 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import Sky from "../assets/Sky.png";
-import WebPhotoSlider from "./WebPhotoSlider";
-import WebPhotoSlider2 from "./WebPhotoSlider2";
-import WebPhotoSlider3 from "./WebPhotoSlider3";
-import NNLand from "../assets/NNLand.png";
+import WebSlot from "./WebSlot";
+
+// IMAGES
+import BD4 from "../assets/BD4.png";
 import Three from "../assets/Three.png";
-import WebSlotDisney from "./WebSlotDisney";
-import WEBWRAP from "../assets/WEBWRAP.png";
-import Disney1 from "../assets/Disney1.png";
+
+// HELMET
 import { Helmet } from "react-helmet";
+
+// SLIDERS
+import WebSlotDisneySlider from "./WebSlotDisneySlider";
+import WebSlotAmazonSlider from "./WebSlotAmazonSlider";
+import WebSlotGoogleMapsSlider from "./WebSlotGoogleMaps";
+import WebSlotNoteSlider from "./WebSlotNoteSlider";
+import WebSlotVidVieuSlider from './WebSlotVidVieuSlider'
 
 import "../css/Website.css";
 
@@ -59,7 +64,7 @@ function Websites() {
         <title>PiaoAltoVieu - Web.</title>
         <meta name="Home" content="Home" />
       </Helmet>
-      <div className="Yeah2" style={{ backgroundImage: `url(${WEBWRAP})` }}>
+      <div className="Yeah2" style={{ backgroundImage: `url(${BD4})` }}>
         <div className="HeaderWrapper">
           <h1 className="HeaderLogo">PIAO ALTO VIEU</h1>
           <div className="yerr">
@@ -100,40 +105,60 @@ function Websites() {
         {menu}
 
         <h1 className="WebH1">WEBSITES</h1>
-        {/*
-                <div className="WebDes">
-                    <WebPhotoSlider />
-                    <div className="paragraphBox">
-                        <h2 className="WebTit1">NOTE NETT</h2>
-                        <p className="NOTENETTDescription">With NOTE NETT, I Formulated a Note/Todo App, applying full CRUD in where you can check off, edit, delete & pin notes. I utilized bcrypt for Authentication and a secure user experience (UX/UI) and implemented a 3rd party technology, Firebase as a real time customizable user storage/database.</p>
-                    </div>
-                </div>
-
-                <div className="webDes-2">
-                    <WebPhotoSlider3 />
-                    <div className="paragraphBox2">
-                        <h2 className="WebTit1">VIDVIEU<a className="link" href=""></a></h2>
-                        <p className="NOTENETTDescription">With VIDVIEU, I Formulated a video viewing platform, making use of a 3rd party technology/ API. </p>
-                    </div>
-                </div>
-                
-                <div className="webDes-2">
-                    <WebPhotoSlider2 />
-                    <div className="paragraphBox2">
-                        <h2 className="WebTit1">EKANS<a className="link" href="https://pavekans.com">https://pavekans.com</a></h2>
-                        <p className="NOTENETTDescription">Ekans, a vanilla javascript, fully functional version of "Snake Game"</p>
-                    </div>
-                </div> */}
         <div className="websites__fit">
-          <WebSlotDisney
+          <WebSlot
             title="DISNEY PLUS"
             techUsed="REACT || REDUX || FIREBASE || API'S || AUTHENTICATION || DATABASE || STYLED COMPONENTS"
-            description="The recreation of Disney Plus, A popular Television Streaming Site/App. Recreated in an attempt at better understanding Firebase & Redux and a mission accomplished. A fully functional Authentication using Firebase and It's Google Sign In method."
+            description="The recreation of the popular streaming service, Disney Plus. With a fully functional Firebase database allowing for excellently smooth state management & an uncluttered Google Firebase user sign in Authentication. Redux, to allow for the ease of user’s data information passing. All this with the complete use of industry standard competitor, Styled-Components, styled head to toe to perfection. "
             gitLink="https://github.com/blankvs/disney-plus-clone"
             a="https://github.com/blankvs/disney-plus-clone"
-            gitLink="https://github.com/blankvs/disney-plus-clone"
-            b="https://www.pavdisneyplus.com/"
             webLink="https://www.pavdisneyplus.com/"
+            b="https://www.pavdisneyplus.com/"
+            view={<WebSlotDisneySlider />}
+          />
+
+          <WebSlot
+            title="AMAZON"
+            techUsed="REACT || FIREBASE || AUTHENTICATION || DATABASE || NPM PACKAGES|| STYLED COMPONENTS"
+            description="The recreation of more than popular Amazon. With a fully functional, easy to use Firebase database, used to store products and user information. A fully functional user Firebase Authentication. Beautiful use of existing npm packages and an overall clean application thanks to the complete use of Styled-Components."
+            gitLink="https://github.com/blankvs/pav-amazon"
+            a="https://github.com/blankvs/pav-amazon"
+            webLink=""
+            b=""
+            view={<WebSlotAmazonSlider />}
+          />
+
+          <WebSlot
+            title="NOTE NETT"
+            techUsed="REACT || REDUX || SQL || AXIOS || EXPRESS || NODE || BCRYPT || DOTENV || REACT ROUTER DOM || MASSIVE || SASS"
+            description="Fantastic formulation of a note / todo app, Note Nett. Made with only essential node packages, a fully functional backend authentication utilizing SQL and state being managed completely by Redux. Note Nett, allowing for notes to be added, completed and deleted, equaling out to a Full CRUD structure. All this with the beautiful, simplistic layout, utilizing the use of myself and SASS."
+            gitLink="https://github.com/blankvs/pav-note-nett"
+            a="https://github.com/blankvs/pav-note-nett"
+            webLink="null"
+            b=""
+            view={<WebSlotNoteSlider />}
+          />
+
+          <WebSlot
+            title="GOOGLE MAPS"
+            techUsed="HTML5 || JAVASCRIPT || CSS || MAPBOX API"
+            description="A dive into the popular MapBox Api. Completed with only HTML, JS & CSS technologies. Including Navigation controls & a very much neat Directions plug-in, all a part of the MapBox Api under Mapbox GL JS documentation. Overall a very neat project with incredibly neat new possibilities."
+            gitLink="https://github.com/blankvs/google-maps"
+            a="https://github.com/blankvs/google-maps"
+            webLink=""
+            b=""
+            view={<WebSlotGoogleMapsSlider />}
+          />
+
+          <WebSlot
+            title="VID VIEU"
+            techUsed="REACT || REDUX || SQL || AXIOS || EXPRESS || NODE || BCRYPT || DOTENV || REACT ROUTER DOM || MASSIVE || REACT-PLAYER API || SASS"
+            description="A dive into the popular MapBox Api. Completed with only HTML, JS & CSS technologies. Including Navigation controls & a very much neat Directions plug-in, all a part of the MapBox Api under Mapbox GL JS documentation. Overall a very neat project with incredibly neat new possibilities."
+            gitLink="https://github.com/blankvs/pav-vid-vieu"
+            a="https://github.com/blankvs/pav-vid-vieu"
+            webLink=""
+            b=""
+            view={<WebSlotVidVieuSlider />}
           />
         </div>
       </div>

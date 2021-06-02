@@ -1,16 +1,27 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import { useState } from "react";
-import WATER from "../assets/WATER.png";
-import Three from "../assets/Three.png";
-import { Helmet } from "react-helmet";
+import React, { Component, useState } from "react"
+import { Link } from "react-router-dom"
+import WATER from "../assets/WATER.png"
+import Three from "../assets/Three.png"
+import { Helmet } from "react-helmet"
 
-import "../css/Contact.css";
+// import { useForm } from "react-hook-form"
+
+import "../css/Contact.css"
 
 function Contact() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  let menu;
+  // const [name, setName] = useState("")
+  // const [email, setEmail] = useState("")
+  // const [message, setMessage] = useState("")
+
+  // const { register, handleSubmit, errors, reset } = useForm()
+
+  // function onSubmitForm(values) {
+  //   console.log(values)
+  // }
+
+  let menu
 
   if (isMenuOpen) {
     menu = (
@@ -43,7 +54,7 @@ function Contact() {
           </p>
         </div>
       </div>
-    );
+    )
   }
 
   return (
@@ -93,12 +104,33 @@ function Contact() {
       </div>
       {menu}
       <h1 className="contactH1">CONTACT</h1>
-      <h1 className="emailH1">SERGIOVEGAP12@GMAIL.COM</h1>
+      {/* <h1 className="emailH1">SERGIOVEGAP12@GMAIL.COM</h1> */}
+
+      {/* <form className="contact__form" onSubmit={handleSubmit(onSubmitForm)}>
+        <label for="name">NAME</label>
+        <input type="text" name="name" ref={register} placeholder="NAME" />
+
+        <label for="email">EMAIL</label>
+        <input type="email" name="email" ref={register} placeholder="EMAIL" />
+
+        <label for="phone">PHONE</label>
+        <input type="text" name="phone" ref={register} placeholder="EMAIL" />
+
+        <textarea
+          type="text"
+          name="name"
+          placeholder="MESSAGE"
+          ref={register}
+        />
+
+        <button type="submit">SUBMIT</button>
+      </form> */}
+
       <div className="footer">
         <h1 className="cc">© 2021 PiaoAltoVieu.</h1>
       </div>
     </div>
-  );
+  )
 }
 
-export default Contact;
+export default Contact

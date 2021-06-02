@@ -9,7 +9,11 @@ import Landing2 from "../assets/Landing2.png";
 import Skills from "../assets/Skills.png";
 import Three from "../assets/Three.png";
 import UPDATE from "../assets/UPDATE.png";
-import { Helmet } from 'react-helmet'
+import { Helmet } from "react-helmet";
+import SVResume from "../assets/SVResume.pdf";
+// import { PDFDownloadLink, Document, Page } from "@react-pdf/renderer";
+import Resume from "./Resume";
+import DateAndTime from "./DateAndTime";
 
 import "../css/Landing.css";
 
@@ -99,39 +103,51 @@ function Landing() {
           </div>
         </div>
         {menu}
-        <div id="stepTwo">
-          <div className="LandingWrapper">
-            <div className="LandingUpperBox">
-              <h1 className="LandingH1Name">SERGIO VEGA</h1>
-              <h1 className="LandingH1Description">
-                FRONT END WEB DEVELOPER || DESIGNER
-              </h1>
-            </div>
-
-            <div className="LandingLowerBox"></div>
-          </div>
-          <div className="IconWrapper">
-            <div className="Icons"></div>
-            <div className="Icon2">
+        <div className="landing__center">
+          <div className="stepTwo">
+            <div className="LandingWrapper">
               <div>
-                <a href="https://github.com/blankvs">
-                  <img className="GitIcon" src={Github}></img>
-                </a>
+                <DateAndTime />
               </div>
               <div>
-                <a href="https://www.linkedin.com/in/sergio-vega-902a151b9/">
-                  <img className="LinkedinIcon" src={Linkedin}></img>
+                <h1 className="LandingH1Name">SERGIO GARCIA</h1>
+                <h1 className="LandingH1Description">
+                  FRONT END WEB DEVELOPER || DESIGNER
+                </h1>
+              </div>
+            </div>
+            <div className="IconWrapper">
+              <div className="Icons"></div>
+              <div className="Icon2">
+                <div>
+                  <a href="https://github.com/blankvs">
+                    <img className="GitIcon" src={Github}></img>
+                  </a>
+                </div>
+                <div>
+                  <a href="https://www.linkedin.com/in/sergio-vega-902a151b9/">
+                    <img className="LinkedinIcon" src={Linkedin}></img>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="LeftLineLanding">
+              <img className="Skills" src={Skills}></img>
+              <div className="landing__wrapper">
+                <a className="landing__resumeLink" href={SVResume} download>
+                  RESUME
                 </a>
+
+                <Link to="/WEBSITES">
+                  <button className="landing__youtubeLink">WEBSITES</button>
+                </Link>
               </div>
             </div>
           </div>
-          <div className="LeftLineLanding">
-            <img className="Skills" src={Skills}></img>
-          </div>
-        </div>
 
-        <div className="footer">
-          <h1 className="cc">© 2021 PiaoAltoVieu.</h1>
+          <div className="footer">
+            <h1 className="cc">© 2021 PiaoAltoVieu.</h1>
+          </div>
         </div>
       </div>
     </div>
