@@ -1,28 +1,28 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import { useState } from "react";
-import WebSlot from "./WebSlot";
+import React, { Component } from "react"
+import { Link } from "react-router-dom"
+import { useState } from "react"
+import WebSlot from "./WebSlot"
 
 // IMAGES
-import BD4 from "../assets/BD4.png";
-import Three from "../assets/Three.png";
+import BD4 from "../assets/BD4.png"
+import Three from "../assets/Three.png"
 
 // HELMET
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet"
 
 // SLIDERS
-import WebSlotDisneySlider from "./WebSlotDisneySlider";
-import WebSlotAmazonSlider from "./WebSlotAmazonSlider";
-import WebSlotGoogleMapsSlider from "./WebSlotGoogleMaps";
-import WebSlotNoteSlider from "./WebSlotNoteSlider";
-import WebSlotVidVieuSlider from './WebSlotVidVieuSlider'
+import WebSlotDisneySlider from "./WebSlotDisneySlider"
+import WebSlotAmazonSlider from "./WebSlotAmazonSlider"
+import WebSlotGoogleMapsSlider from "./WebSlotGoogleMaps"
+import WebSlotNoteSlider from "./WebSlotNoteSlider"
+import WebSlotVidVieuSlider from "./WebSlotVidVieuSlider"
 
-import "../css/Website.css";
+import "../css/Website.css"
 
 function Websites() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  let menu;
+  let menu
 
   if (isMenuOpen) {
     menu = (
@@ -44,7 +44,7 @@ function Websites() {
             </Link>
           </p>
           <p>
-            <Link className="LinkWebsitesMob" to="/MUSIC">
+            <Link className="LinkWebsitesMob" to="/Music">
               MUSIC
             </Link>
           </p>
@@ -55,7 +55,7 @@ function Websites() {
           </p>
         </div>
       </div>
-    );
+    )
   }
 
   return (
@@ -81,22 +81,22 @@ function Websites() {
               </Link>
             </li>
             <li>
-              <Link className="LinkAbout" to="ABOUT">
+              <Link className="LinkAbout" to="About">
                 ABOUT
               </Link>
             </li>
             <li>
-              <Link className="LinkWebsites" to="/WEBSITES">
+              <Link className="LinkWebsites" to="/Websites">
                 WEBSITES
               </Link>
             </li>
             <li>
-              <Link className="LinkDesign" to="/MUSIC">
+              <Link className="LinkDesign" to="/Music">
                 MUSIC
               </Link>
             </li>
             <li>
-              <Link className="LinkContact" to="/CONTACT">
+              <Link className="LinkContact" to="/Contact">
                 CONTACT
               </Link>
             </li>
@@ -112,8 +112,8 @@ function Websites() {
             description="The recreation of the popular streaming service, Disney Plus. With a fully functional Firebase database allowing for excellently smooth state management & an uncluttered Google Firebase user sign in Authentication. Redux, to allow for the ease of user’s data information passing. All this with the complete use of industry standard competitor, Styled-Components, styled head to toe to perfection. "
             gitLink="https://github.com/blankvs/disney-plus-clone"
             a="https://github.com/blankvs/disney-plus-clone"
-            webLink="https://www.pavdisneyplus.com/"
-            b="https://www.pavdisneyplus.com/"
+            webLink="https://happy-johnson-72d70c.netlify.app/"
+            b="https://happy-johnson-72d70c.netlify.app/"
             view={<WebSlotDisneySlider />}
           />
 
@@ -123,8 +123,8 @@ function Websites() {
             description="The recreation of more than popular Amazon. With a fully functional, easy to use Firebase database, used to store products and user information. A fully functional user Firebase Authentication. Beautiful use of existing npm packages and an overall clean application thanks to the complete use of Styled-Components."
             gitLink="https://github.com/blankvs/pav-amazon"
             a="https://github.com/blankvs/pav-amazon"
-            webLink=""
-            b=""
+            webLink="https://tender-kare-df2bac.netlify.app"
+            b="https://tender-kare-df2bac.netlify.app"
             view={<WebSlotAmazonSlider />}
           />
 
@@ -134,7 +134,7 @@ function Websites() {
             description="Fantastic formulation of a note / todo app, Note Nett. Made with only essential node packages, a fully functional backend authentication utilizing SQL and state being managed completely by Redux. Note Nett, allowing for notes to be added, completed and deleted, equaling out to a Full CRUD structure. All this with the beautiful, simplistic layout, utilizing the use of myself and SASS."
             gitLink="https://github.com/blankvs/pav-note-nett"
             a="https://github.com/blankvs/pav-note-nett"
-            webLink="null"
+            webLink=""
             b=""
             view={<WebSlotNoteSlider />}
           />
@@ -145,8 +145,8 @@ function Websites() {
             description="A dive into the popular MapBox Api. Completed with only HTML, JS & CSS technologies. Including Navigation controls & a very much neat Directions plug-in, all a part of the MapBox Api under Mapbox GL JS documentation. Overall a very neat project with incredibly neat new possibilities."
             gitLink="https://github.com/blankvs/google-maps"
             a="https://github.com/blankvs/google-maps"
-            webLink=""
-            b=""
+            webLink="https://blissful-snyder-f822af.netlify.app"
+            b="https://blissful-snyder-f822af.netlify.app"
             view={<WebSlotGoogleMapsSlider />}
           />
 
@@ -156,8 +156,8 @@ function Websites() {
             description="A dive into the popular MapBox Api. Completed with only HTML, JS & CSS technologies. Including Navigation controls & a very much neat Directions plug-in, all a part of the MapBox Api under Mapbox GL JS documentation. Overall a very neat project with incredibly neat new possibilities."
             gitLink="https://github.com/blankvs/pav-vid-vieu"
             a="https://github.com/blankvs/pav-vid-vieu"
-            webLink=""
-            b=""
+            webLink="https://nifty-meninsky-0698d9.netlify.app"
+            b="https://nifty-meninsky-0698d9.netlify.app"
             view={<WebSlotVidVieuSlider />}
           />
         </div>
@@ -167,7 +167,7 @@ function Websites() {
         <h1 className="cc">© 2021 PiaoAltoVieu.</h1>
       </div>
     </div>
-  );
+  )
 }
 
-export default Websites;
+export default Websites

@@ -1,180 +1,228 @@
 .background-wallpaper-about {
-    height: 100vh;
-    width: 100vw;
-    background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
 }
 
 .family-image {
-    height: 400px;
-    width: 400px;
+  height: 400px;
+  width: 400px;
+  /* border: 2px solid white; */
 }
 
 .about-header {
-    font-family: 'Times New Roman', Times, serif;
-    font-style: italic;
-    color: white;
-    font-size: 60px;
-    letter-spacing: 1.5px;
-    font-weight: 600;
-    margin-top: 10px;
-    text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  color: white;
+  font-size: 60px;
+  letter-spacing: 1.5px;
+  font-weight: 600;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .about-formatter {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 30px;
-    margin-left: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 200px;
 }
 
-.paragraph-formatter {
-    height: 150px;
-    width: 55%;
-    margin-top: 10px;
+.about__formatter {
+  height: 400px;
+}
+
+.about__resumeLink {
+  height: 40px;
+  width: 125px;
+  border-radius: 5px;
+  border: white solid 1px;
+  background-color: transparent;
+  color: white;
+  font-size: 13.5px;
+  margin-left: 35px;
+  font-style: italic;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  text-align: center;
+  padding: 11px;
+  transition: ease-out 0.5s;
+  display: flex;
+  text-align: center;
+  padding-left: 35px;
+}
+
+.about__resumeLink:hover {
+    background-color: white;
+    color: black;
 }
 
 .bio-paragraph {
-    color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-    font-style: italic;
-    letter-spacing: 1.5px;
-    margin-left: 35px;
-    text-indent: 35px;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  font-style: italic;
+  margin-left: 35px;
+  text-indent: 25px;
+  width: 100%;
+  height: 200px;
+  height: 150px;
+  letter-spacing: 1px;
+  width: 75%;
+    margin-top: 105px;
+    /* margin-bottom: 60px; */
 }
 
 .icon-formatter {
-    width: 85px;
-    height: 15px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 10%;
-    margin-top: 35px;
+  width: 85px;
+  height: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 350px;
+  margin-top: 25px;
 }
 
 .Icon {
-    height: 50px;
-    width: 150px;
+  height: 50px;
+  width: 150px;
 }
 
 .GitIcon2 {
-    height: 30px;
-    width: 30px;
+  height: 30px;
+  width: 30px;
 }
 
 .LinkedinIcon2 {
-    height: 30px;
-    width: 30px;
+  height: 30px;
+  width: 30px;
 }
+
+
+
+
 
 
 @media (max-width: 1220px) {
-    .about-header {
-        font-size: 60px;
-        letter-spacing: 1px;
-        line-height: 57px;
-        margin-left: 37px;
-        margin-top: 30px;
-    }
-    .family-image {
-        height: 350px;
-        width: 350px;
-    }
-    .about-formatter {
-        margin-left: 5%;
-    }
-    .paragraph-formatter {
-        width: 90%;
-        padding-right: 50px;
-    }
-    .bio-paragraph {
-        font-size: 24px;
-        /* width: 300px; */
-    }
-    .icon-formatter {
-        margin-top: 35px;
-        margin-left: 35px;
-        margin-left: 5%;
-    }
+  .about-header {
+    font-size: 60px;
+    letter-spacing: 1px;
+    line-height: 57px;
+    margin-left: 37px;
+    margin-top: 30px;
+  }
+  .family-image {
+    height: 350px;
+    width: 350px;
+  }
+  .about-formatter {
+    margin-left: 5%;
+  }
+  .paragraph-formatter {
+    width: 90%;
+    padding-right: 50px;
+  }
+  .bio-paragraph {
+    font-size: 24px;
+    /* width: 300px; */
+  }
+  .icon-formatter {
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-left: 5%;
+  }
 }
 
-@media (max-width: 600px) {
-    .about-header {
-        font-size: 60px;
-        letter-spacing: 1px;
-        line-height: 57px;
-        margin-left: 0px;
-        margin-top: 30px;
-        margin-bottom: -15px;
-    }
-    .family-image {
-        height: 300px;
-        width: 300px;
-        margin-left: 0px;
-        margin-top: 0px;
-    }
-    .about-formatter {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-    .paragraph-formatter {
-        margin: 0;
-    }
-    .bio-paragraph {
-        font-size: 17px;
-        margin-top: 20px;
-        text-align: center;
-    }
-    .icon-formatter {
-        margin-right: auto;
-        margin-top: -30px;
-        margin-left: auto;
-    }
+@media (max-width: 1300px) {
+  .paragraph-formatter {
+    margin-bottom: -100px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .paragraph-formatter {
+    margin-bottom: -50px;
+  }
+}
+
+@media (max-width: 860px) {
+  .about-header {
+    font-size: 60px;
+    letter-spacing: 1px;
+    line-height: 57px;
+    margin-left: 0px;
+    margin-top: 30px;
+    margin-bottom: -15px;
+  }
+  .family-image {
+    height: 300px;
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .about-formatter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 0;
+  }
+  .paragraph-formatter {
+    margin: 0;
+  }
+  .bio-paragraph {
+    font-size: 17px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: -30px;
+  }
+  .icon-formatter {
+    margin-right: auto;
+    margin-top: -275px;
+    margin-left: auto;
+  }
 }
 
 @media (max-width: 400px) {
-    .background-wallpaper-about {
-        height: 110vh;
-    }
-    .about-header {
-        font-size: 40px;
-        letter-spacing: 1px;
-        line-height: 57px;
-        margin-left: 0px;
-        margin-top: 0px;
-        margin-bottom: -15px;
-    }
-    .family-image {
-        height: 230px;
-        width: 230px;
-        margin-left: -20px;
-        margin-top: -15px;
-    }
-    .paragraph-formatter {
-        width: 80%;
-        margin-left: -35px;
-    }
-    .bio-paragraph {
-        font-size: 14px;
-        width: 330px;
-        letter-spacing: normal;
-        text-align: center;
-        margin-left: -15px;
-        padding-right: 0;
-        text-indent: 0px;
-        margin-top: 10px;
-    }
-    .icon-formatter {
-        margin-right: auto;
-        margin-top: -15px;
-        margin-left: auto;
-    }
-    .about-formatter {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
+  .background-wallpaper-about {
+    height: 110vh;
+  }
+  .about-header {
+    font-size: 40px;
+    letter-spacing: 1px;
+    line-height: 57px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: -15px;
+  }
+  .family-image {
+    height: 230px;
+    width: 230px;
+    margin-left: -20px;
+    margin-top: -15px;
+  }
+  .paragraph-formatter {
+    width: 80%;
+    margin-left: -35px;
+  }
+  .bio-paragraph {
+    font-size: 14px;
+    width: 330px;
+    letter-spacing: normal;
+    text-align: center;
+    margin-left: -15px;
+    padding-right: 0;
+    text-indent: 0px;
+    margin-top: 10px;
+  }
+  .icon-formatter {
+    margin-right: auto;
+    margin-top: -15px;
+    margin-left: auto;
+  }
+  .about-formatter {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
 }
-

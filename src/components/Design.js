@@ -75,12 +75,12 @@ function Design() {
               </Link>
             </li>
             <li>
-              <Link className="LinkAbout" to="/ABOUT">
+              <Link className="LinkAbout" to="/About">
                 ABOUT
               </Link>
             </li>
             <li>
-              <Link className="LinkWebsites" to="/WEBSITES">
+              <Link className="LinkWebsites" to="/Websites">
                 WEBSITES
               </Link>
             </li>
@@ -90,7 +90,7 @@ function Design() {
               </Link>
             </li>
             <li>
-              <Link className="LinkContact" to="/CONTACT">
+              <Link className="LinkContact" to="/Contact">
                 CONTACT
               </Link>
             </li>

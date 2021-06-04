@@ -43,7 +43,7 @@ function Contact() {
             </Link>
           </p>
           <p>
-            <Link className="LinkWebsitesMob" to="/MUSIC">
+            <Link className="LinkWebsitesMob" to="/Music">
               MUSIC
             </Link>
           </p>
@@ -80,22 +80,22 @@ function Contact() {
               </Link>
             </li>
             <li>
-              <Link className="LinkAbout" to="/ABOUT">
+              <Link className="LinkAbout" to="/About">
                 ABOUT
               </Link>
             </li>
             <li>
-              <Link className="LinkWebsites" to="/WEBSITES">
+              <Link className="LinkWebsites" to="/Websites">
                 WEBSITES
               </Link>
             </li>
             <li>
-              <Link className="LinkDesign" to="/MUSIC">
+              <Link className="LinkDesign" to="/Music">
                 MUSIC
               </Link>
             </li>
             <li>
-              <Link className="LinkContact" to="/CONTACT">
+              <Link className="LinkContact" to="/Contact">
                 CONTACT
               </Link>
             </li>
