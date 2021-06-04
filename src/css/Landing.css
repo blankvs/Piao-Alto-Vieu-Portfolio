@@ -169,7 +169,6 @@ body {
   /* margin-top: 60px; */
   padding-top: 137px;
   padding-left: 150px;
-  
 }
 
 .LeftLineLanding {
@@ -177,6 +176,7 @@ body {
   width: 600px;
   border-left: white 2px solid;
   margin-left: 117.5px;
+  padding-left: 150px;
 }
 
 .footer {
@@ -231,7 +231,7 @@ li {
 }
 
 .Skills {
-  margin-left: 150px;
+  /* margin-left: 150px; */
   height: 40%;
 }
 
@@ -259,7 +259,7 @@ li {
   .ThreeMenu {
     display: inline-block;
   }
-  .LandingWrapper {
+  /* .LandingWrapper {
     margin-left: 33px;
     padding-left: 20px;
     border-left: white solid 2px;
@@ -271,13 +271,13 @@ li {
     font-size: 35px;
   }
   .Skills {
-    height: 30%;
+    height: 40%;
     margin-left: 15px;
     /* margin-top: 20px; */
-  }
+  /* }
   .LeftLineLanding {
     margin-left: 33px;
-    width: 290px;
+    width: 80%px;
     height: 250px;
     border-left: solid white 1px;
   }
@@ -285,9 +285,12 @@ li {
     margin-left: 19px;
   }
   .LandingH1Name {
-    font-size: 60px;
+    font-size: 70px;
     letter-spacing: 1px;
     line-height: 57px;
+  }
+  .LandingWrapper {
+    width: 80%;
   }
   .LandingH1Description {
     font-size: 15px;
@@ -300,8 +303,8 @@ li {
   }
   .HeaderLogo {
     /* font-size: 25px; */
-  }
-  .cc {
+  /* } */
+  */ */ .cc {
     color: white;
     font-style: italic;
     font-family: "Times New Roman", Times, serif;
@@ -315,7 +318,62 @@ li {
 
 /* YUHHHHHHHHH */
 
-@media (max-width: 600px) {
+/* @media(max-width: 1100px) {
+  .LandingWrapper {
+    padding-left: 100px;
+  }
+  .LeftLineLanding {
+    padding-left: 100px;
+  }
+} */
+
+@media (max-width: 950px) {
+  .LandingWrapper {
+    margin-left: 65px;
+    padding-top: 154px;
+    padding-left: 50px;
+  }
+  .Icon2 {
+    margin-left: 50px;
+  }
+  .LeftLineLanding {
+    margin-left: 65px;
+    padding-left: 50px;
+  }
+  .LandingH1Name {
+    font-size: 70px;
+    letter-spacing: 0;
+  }
+  .LandingH1Description {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 665px) {
+  .LandingH1Name {
+    font-size: 50px;
+  }
+  .LandingH1Description {
+    font-size: 14px;
+  }
+  .LeftLineLanding {
+    width: 400px;
+  }
+  .LandingWrapper {
+    padding-top: 168px;
+  }
+}
+
+/* @media(max-width: 675px) {
+  .LandingWrapper {
+    padding-left: 50px;
+  }
+  .LeftLineLanding {
+    padding-left: 50px;
+  }
+} */
+
+/* @media (max-width: 600px) {
   .LinkSpread {
     display: none;
   }
@@ -338,7 +396,7 @@ li {
     height: 30%;
     margin-left: 15px;
     /* margin-top: 20px; */
-  }
+/* }
   .LeftLineLanding {
     margin-left: 33px;
     width: 290px;
@@ -364,7 +422,7 @@ li {
   }
   .HeaderLogo {
     /* font-size: 25px; */
-  }
+/* }
   .cc {
     color: white;
     font-style: italic;
@@ -375,9 +433,8 @@ li {
     margin-left: 20px;
     letter-spacing: 0.1px;
   }
-}
-
-.mobileNavHide {
+} */
+*/ */ .mobileNavHide {
   /* height: 0;
     padding: 0;
     opacity: 0; */
@@ -427,8 +484,8 @@ li {
 } */
 
 @media (max-width: 400px) {
-  .LinkSpread {
-    display: none;
+  .stepTwo {
+    margin-bottom: -55px;
   }
   .ThreeMenu {
     display: inline-block;
@@ -437,33 +494,34 @@ li {
     margin-left: 33px;
     padding-left: 20px;
     border-left: white solid 2px;
-    height: 150px;
+    height: 137px;
     width: 290px;
     padding-top: 0px;
     border-left: solid white 1px;
   }
-  .LandingH1Name {
-    font-size: 35px;
+  .DT__text {
+    padding-top: -10px;
   }
   .Skills {
-    height: 65%;
-    margin-left: 15px;
-    /* margin-top: 20px; */
+    height: 57%;
+    /* margin-left: 15px;
+    margin-top: 20px; */
   }
-
   .LeftLineLanding {
     margin-left: 33px;
     width: 290px;
-    height: 120px;
+    height: 137px;
     border-left: solid white 1px;
+    padding-left: 20px;
   }
   .Icon2 {
     margin-left: 19px;
   }
   .LandingH1Name {
-    font-size: 60px;
+    font-size: 45px;
     letter-spacing: 1px;
     line-height: 57px;
+    line-height: 40px;
   }
   .LandingH1Description {
     font-size: 15px;
@@ -475,7 +533,7 @@ li {
     padding-right: 20px;
   }
   .HeaderLogo {
-    /* font-size: 25px; */
+    font-size: 25px;
   }
   .cc {
     color: white;
@@ -549,7 +607,6 @@ li {
   display: flex;
   align-items: center;
   margin-top: 15px;
-
 }
 
 .landing__resumeLink {
@@ -561,7 +618,7 @@ li {
   color: white;
   font-size: 13.5px;
   margin-right: 15px;
-  margin-left: 150px;
+  /* margin-left: 150px; */
   /* margin-top: 30px; */
   font-style: italic;
   font-family: "Times New Roman", Times, serif;

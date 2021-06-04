@@ -1,26 +1,28 @@
-import React, { Component } from "react";
-import { useState } from "react";
-import { Link } from "react-router-dom";
-import Github from "../assets/Github.png";
-import Linkedin from "../assets/Linkedin.png";
-import Dunes from "../assets/Dunes.jpg";
-import Grain from "../assets/Grain.png";
-import Landing2 from "../assets/Landing2.png";
-import Skills from "../assets/Skills.png";
-import Three from "../assets/Three.png";
-import UPDATE from "../assets/UPDATE.png";
-import { Helmet } from "react-helmet";
-import SVResume from "../assets/SVResume.pdf";
+import React, { Component } from "react"
+import { useState } from "react"
+import { Link } from "react-router-dom"
+import Github from "../assets/Github.png"
+import Linkedin from "../assets/Linkedin.png"
+import Dunes from "../assets/Dunes.jpg"
+import Grain from "../assets/Grain.png"
+import Landing2 from "../assets/Landing2.png"
+import Skills from "../assets/Skills.png"
+import Three from "../assets/Three.png"
+import UPDATE from "../assets/UPDATE.png"
+import { Helmet } from "react-helmet"
+import SVResume from "../assets/SVResume.pdf"
 // import { PDFDownloadLink, Document, Page } from "@react-pdf/renderer";
-import Resume from "./Resume";
-import DateAndTime from "./DateAndTime";
+import Resume from "./Resume"
+import DateAndTime from "./DateAndTime"
+import styled from "styled-components"
+// import  ReactLogo  from "@styled-icons/boxicons-logos/ReactLogo"
 
-import "../css/Landing.css";
+import "../css/Landing.css"
 
 function Landing() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  let menu;
+  let menu
 
   if (isMenuOpen) {
     menu = (
@@ -53,7 +55,7 @@ function Landing() {
           </p>
         </div>
       </div>
-    );
+    )
   }
 
   return (
@@ -151,7 +153,7 @@ function Landing() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Landing;
+export default Landing
