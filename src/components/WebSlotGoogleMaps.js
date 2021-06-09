@@ -14,11 +14,11 @@ import GM5 from "../assets/GM5.png";
 
 function WebSlotAmazonSlider() {
   let amazonArray = [
-      <ImgComp src={GM1} />,
-      <ImgComp src={GM2} />,
-      <ImgComp src={GM3} />,
-      <ImgComp src={GM4} />,
-      <ImgComp src={GM5} />,
+      <ImgComp loading="lazy" src={GM1} />,
+      <ImgComp loading="lazy" src={GM2} />,
+      <ImgComp loading="lazy" src={GM3} />,
+      <ImgComp loading="lazy" src={GM4} />,
+      <ImgComp loading="lazy" src={GM5} />,
   ];
   const [x, setX] = useState(0);
 

@@ -12,10 +12,10 @@ import A4 from "../assets/A4.png";
 
 function WebSlotAmazonSlider() {
   let amazonArray = [
-      <ImgComp src={A1} />,
-      <ImgComp src={A2} />,
-      <ImgComp src={A3} />,
-      <ImgComp src={A4} />,
+      <ImgComp loading="lazy" src={A1} />,
+      <ImgComp loading="lazy" src={A2} />,
+      <ImgComp loading="lazy" src={A3} />,
+      <ImgComp loading="lazy" src={A4} />,
   ];
   const [x, setX] = useState(0);
 

@@ -13,12 +13,12 @@ import NNN6 from "../assets/NNN6.png";
 
 function NoteNetWebSlider() {
   let nnArray = [
-    <ImgComp src={NNN5} />,
-    <ImgComp src={NNN6} />,
-    <ImgComp src={NNN1} />,
-    <ImgComp src={NNN2} />,
-    <ImgComp src={NNN3} />,
-    <ImgComp src={NNN4} />,
+    <ImgComp loading="lazy" src={NNN5} />,
+    <ImgComp loading="lazy" src={NNN6} />,
+    <ImgComp loading="lazy" src={NNN1} />,
+    <ImgComp loading="lazy" src={NNN2} />,
+    <ImgComp loading="lazy" src={NNN3} />,
+    <ImgComp loading="lazy" src={NNN4} />,
   ];
   const [x, setX] = useState(0);
 

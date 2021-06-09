@@ -12,10 +12,10 @@ import VV4 from "../assets/VV4.png";
 
 function NoteNetWebSlider() {
   let nnArray = [
-    <ImgComp src={VV1} />,
-    <ImgComp src={VV2} />,
-    <ImgComp src={VV3} />,
-    <ImgComp src={VV4} />,
+    <ImgComp loading="lazy" src={VV1} />,
+    <ImgComp loading="lazy" src={VV2} />,
+    <ImgComp loading="lazy" src={VV3} />,
+    <ImgComp loading="lazy" src={VV4} />,
   ];
   const [x, setX] = useState(0);
 

@@ -330,7 +330,7 @@ li {
 @media (max-width: 950px) {
   .LandingWrapper {
     margin-left: 65px;
-    padding-top: 154px;
+    padding-top: 143px;
     padding-left: 50px;
   }
   .Icon2 {
@@ -343,6 +343,7 @@ li {
   .LandingH1Name {
     font-size: 70px;
     letter-spacing: 0;
+    /* transition:  0.5s; */
   }
   .LandingH1Description {
     font-size: 17px;

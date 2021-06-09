@@ -10,7 +10,7 @@ import Skills from "../assets/Skills.png"
 import Three from "../assets/Three.png"
 import UPDATE from "../assets/UPDATE.png"
 import { Helmet } from "react-helmet"
-import SVResume from "../assets/SVResume.pdf"
+import SGResume from "../assets/SGResume.pdf"
 // import { PDFDownloadLink, Document, Page } from "@react-pdf/renderer";
 import Resume from "./Resume"
 import DateAndTime from "./DateAndTime"
@@ -64,12 +64,13 @@ function Landing() {
         <title>PiaoAltoVieu - Home.</title>
         <meta name="Home" content="Home Page" />
       </Helmet>
-      <div className="Yeah" style={{ backgroundImage: `url(${UPDATE})` }}>
+      <div className="Yeah" loading="lazy" style={{ backgroundImage: `url(${UPDATE})` }}>
         <div className="HeaderWrapper">
           <h1 className="HeaderLogo">PIAO ALTO VIEU</h1>
           <div className="move">
             <div className="yerr">
               <img
+                loading="lazy"
                 className="ThreeMenu"
                 src={Three}
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -123,20 +124,20 @@ function Landing() {
               <div className="Icon2">
                 <div>
                   <a href="https://github.com/blankvs">
-                    <img className="GitIcon" src={Github}></img>
+                    <img className="GitIcon" loading="lazy" src={Github}></img>
                   </a>
                 </div>
                 <div>
                   <a href="https://www.linkedin.com/in/sergio-vega-902a151b9/">
-                    <img className="LinkedinIcon" src={Linkedin}></img>
+                    <img className="LinkedinIcon" loading="lazy" src={Linkedin}></img>
                   </a>
                 </div>
               </div>
             </div>
             <div className="LeftLineLanding">
-              <img className="Skills" src={Skills}></img>
+              <img loading="lazy" className="Skills" src={Skills}></img>
               <div className="landing__wrapper">
-                <a className="landing__resumeLink" href={SVResume} download>
+                <a className="landing__resumeLink" href={SGResume} download>
                   RESUME
                 </a>
 

@@ -12,11 +12,11 @@ import Disney5 from "../assets/Disney5.png";
 
 function WebSlotDisneySlider() {
   let disneyArray = [
-    <ImgComp src={Disney1} />,
-    <ImgComp src={Disney2} />,
-    <ImgComp src={Disney3} />,
-    <ImgComp src={Disney4} />,
-    <ImgComp src={Disney5} />,
+    <ImgComp loading="lazy" src={Disney1} />,
+    <ImgComp loading="lazy" src={Disney2} />,
+    <ImgComp loading="lazy" src={Disney3} />,
+    <ImgComp loading="lazy" src={Disney4} />,
+    <ImgComp loading="lazy" src={Disney5} />,
   ];
   const [x, setX] = useState(0);
 
