@@ -1,19 +1,18 @@
-import React, { Component } from "react";
-import { Link } from "react-router-dom";
-import { useState } from "react";
-import DESIFOR from "../assets/DESIFOR.png";
-import Three from "../assets/Three.png";
-import "../css/Design.css";
-import TDWTSUT from "../assets/TDWTSUT.png";
-import SHORTTSWEETT from "../assets/SHORTTSWEETT.png";
-import SPOT from "../assets/SPOT.png";
-import { Helmet } from 'react-helmet'
-
+import React, { Component } from "react"
+import { Link } from "react-router-dom"
+import { useState } from "react"
+import DESIFOR from "../assets/DESIFOR.png"
+import Three from "../assets/Three.png"
+import "../css/Design.css"
+import TDWTSUT from "../assets/TDWTSUT.png"
+import SHORTTSWEETT from "../assets/SHORTTSWEETT.png"
+import SPOT from "../assets/SPOT.png"
+import { Helmet } from "react-helmet"
 
 function Design() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  let menu;
+  let menu
 
   if (isMenuOpen) {
     menu = (
@@ -46,11 +45,12 @@ function Design() {
           </p>
         </div>
       </div>
-    );
+    )
   }
 
   return (
     <div
+      loading="lazy"
       className="background-wallpaper-music"
       style={{ backgroundImage: `url(${DESIFOR})` }}
     >
@@ -64,6 +64,7 @@ function Design() {
           <div className="yerr">
             <img
               className="ThreeMenu"
+              loading="lazy"
               src={Three}
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             />
@@ -105,17 +106,17 @@ function Design() {
       {/* </div> */}
       {/* <p className="music-instructions">CLICK TO LISTEN ON SPOTIFY</p> */}
       <div className="spot-organizer">
-        <img className="spot-logo" src={SPOT}></img>
+        <img className="spot-logo" loading="lazy" src={SPOT}></img>
       </div>
       <div className="cover-formatter">
         <div className="tdwtsut-div">
-          <img className="tdwtsut-cover" src={TDWTSUT} />
+          <img className="tdwtsut-cover" loading="lazy" src={TDWTSUT} />
           <h1 className="tdwtsut-title">
             "THEY DON'T WANT TO SEE US TOGETHER"
           </h1>
         </div>
         <div className="ss-div">
-          <img className="ss-cover" src={SHORTTSWEETT} />
+          <img className="ss-cover" loading="lazy" src={SHORTTSWEETT} />
           <h1 className="ss-title">"SHORTT SWEETT"</h1>
         </div>
       </div>
@@ -124,7 +125,7 @@ function Design() {
         <h1 className="cc">© 2021 PiaoAltoVieu.</h1>
       </div>
     </div>
-  );
+  )
 }
 
-export default Design;
+export default Design

@@ -63,6 +63,7 @@ function About() {
         <h1 className="HeaderLogo">PIAO ALTO VIEU</h1>
         <div className="yerr">
           <img
+          loading="lazy"
             className="ThreeMenu"
             src={Three}
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -100,7 +101,7 @@ function About() {
 
       <h2 className="about-header">ABOUT</h2>
       <div className="about-formatter">
-        <img className="family-image" src={FAMILY} alt={FAMILY}></img>
+        <img className="family-image" loading="lazy" src={FAMILY} alt={FAMILY}></img>
         <div className="about__formatter">
           <p className="bio-paragraph">
             {" "}
@@ -118,10 +119,10 @@ function About() {
       <div className="icons-about">
         <div className="icon-formatter">
           <a href="https://github.com/blankvs">
-            <img className="GitIcon" src={Github}></img>
+            <img className="GitIcon" loading="lazy" src={Github}></img>
           </a>
           <a href="https://www.linkedin.com/in/sergio-vega-902a151b9/">
-            <img className="LinkedinIcon" src={Linkedin}></img>
+            <img className="LinkedinIcon" loading="lazy" src={Linkedin}></img>
           </a>
         </div>
       </div>
