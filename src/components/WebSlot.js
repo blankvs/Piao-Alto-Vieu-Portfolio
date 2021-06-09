@@ -1,8 +1,7 @@
-import React from "react";
-import "../css/WebSlot.css";
+import React from "react"
+import "../css/WebSlot.css"
 // import WebSlotDisneySlider from "./WebSlotDisneySlider";
 // import WebSlotAmazonSlider from "./WebSlotAmazonSlider";
-
 
 function WebSlot({
   title,
@@ -56,7 +55,7 @@ function WebSlot({
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default WebSlot;
+export default WebSlot

@@ -118,6 +118,17 @@ function Websites() {
           />
 
           <WebSlot
+            title="GOOGLE MAPS"
+            techUsed="HTML5 || JAVASCRIPT || CSS || MAPBOX API"
+            description="A dive into the popular MapBox Api. Completed with only HTML, JS & CSS technologies. Including Navigation controls & a very much neat Directions plug-in, all a part of the MapBox Api under Mapbox GL JS documentation. Overall a very neat project with incredibly neat new possibilities."
+            gitLink="https://github.com/blankvs/google-maps"
+            a="https://github.com/blankvs/google-maps"
+            webLink="https://blissful-snyder-f822af.netlify.app"
+            b="https://blissful-snyder-f822af.netlify.app"
+            view={<WebSlotGoogleMapsSlider />}
+          />
+
+          <WebSlot
             title="AMAZON"
             techUsed="REACT || FIREBASE || AUTHENTICATION || DATABASE || NPM PACKAGES|| STYLED COMPONENTS"
             description="The recreation of more than popular Amazon. With a fully functional, easy to use Firebase database, used to store products and user information. A fully functional user Firebase Authentication. Beautiful use of existing npm packages and an overall clean application thanks to the complete use of Styled-Components."
@@ -137,17 +148,6 @@ function Websites() {
             webLink=""
             b=""
             view={<WebSlotNoteSlider />}
-          />
-
-          <WebSlot
-            title="GOOGLE MAPS"
-            techUsed="HTML5 || JAVASCRIPT || CSS || MAPBOX API"
-            description="A dive into the popular MapBox Api. Completed with only HTML, JS & CSS technologies. Including Navigation controls & a very much neat Directions plug-in, all a part of the MapBox Api under Mapbox GL JS documentation. Overall a very neat project with incredibly neat new possibilities."
-            gitLink="https://github.com/blankvs/google-maps"
-            a="https://github.com/blankvs/google-maps"
-            webLink="https://blissful-snyder-f822af.netlify.app"
-            b="https://blissful-snyder-f822af.netlify.app"
-            view={<WebSlotGoogleMapsSlider />}
           />
 
           <WebSlot
