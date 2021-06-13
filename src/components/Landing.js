@@ -64,7 +64,11 @@ function Landing() {
         <title>PiaoAltoVieu - Home.</title>
         <meta name="Home" content="Home Page" />
       </Helmet>
-      <div className="Yeah" loading="lazy" style={{ backgroundImage: `url(${UPDATE})` }}>
+      <div
+        className="Yeah"
+        loading="lazy"
+        style={{ backgroundImage: `url(${UPDATE})` }}
+      >
         <div className="HeaderWrapper">
           <h1 className="HeaderLogo">PIAO ALTO VIEU</h1>
           <div className="move">
@@ -115,7 +119,7 @@ function Landing() {
               <div>
                 <h1 className="LandingH1Name">SERGIO GARCIA</h1>
                 <h1 className="LandingH1Description">
-                  FRONT END WEB DEVELOPER || DESIGNER
+                  WEB DEVELOPER || DESIGNER
                 </h1>
               </div>
             </div>
@@ -129,7 +133,11 @@ function Landing() {
                 </div>
                 <div>
                   <a href="https://www.linkedin.com/in/sergio-vega-902a151b9/">
-                    <img className="LinkedinIcon" loading="lazy" src={Linkedin}></img>
+                    <img
+                      className="LinkedinIcon"
+                      loading="lazy"
+                      src={Linkedin}
+                    ></img>
                   </a>
                 </div>
               </div>
