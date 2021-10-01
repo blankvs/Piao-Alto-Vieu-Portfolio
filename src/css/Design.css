@@ -32,15 +32,23 @@
     font-weight: bold;
 }
 
-.spot-organizer {
+.spot-center {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
-.spot-logo {
+.spot-organizer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
     height: 50px;
 }
+
+/* .spot-logo {
+    height: 50px;
+} */
 
 .holder {
     margin-right: 10%;

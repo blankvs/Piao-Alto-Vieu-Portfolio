@@ -7,6 +7,10 @@ import "../css/Design.css"
 import TDWTSUT from "../assets/TDWTSUT.png"
 import SHORTTSWEETT from "../assets/SHORTTSWEETT.png"
 import SPOT from "../assets/SPOT.png"
+import LT from "../assets/LT.jpg"
+import AM from "../assets/AM.png"
+import SC from "../assets/SC.png"
+
 import { Helmet } from "react-helmet"
 
 function Design() {
@@ -105,10 +109,18 @@ function Design() {
       {/* <div className="holder"></div> */}
       {/* </div> */}
       {/* <p className="music-instructions">CLICK TO LISTEN ON SPOTIFY</p> */}
-      <div className="spot-organizer">
-        <img className="spot-logo" loading="lazy" src={SPOT}></img>
+      <div className="spot-center">
+        <div className="spot-organizer">
+          <img className="spot-logo" loading="lazy" src={SPOT}></img>
+          <img className="spot-logo" loading="lazy" src={AM}></img>
+          <img className="spot-logo" loading="lazy" src={SC}></img>
+        </div>
       </div>
       <div className="cover-formatter">
+        <div className="tdwtsut-div">
+          <img className="tdwtsut-cover" loading="lazy" src={LT}></img>
+          <h1 className="tdwtsut-title">(ALBUM) "LAS TUYAS"</h1>
+        </div>
         <div className="tdwtsut-div">
           <img className="tdwtsut-cover" loading="lazy" src={TDWTSUT} />
           <h1 className="tdwtsut-title">

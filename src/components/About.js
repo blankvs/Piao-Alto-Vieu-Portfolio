@@ -105,11 +105,8 @@ function About() {
         <div className="about__formatter">
           <p className="bio-paragraph">
             {" "}
-            MY NAME IS SERGIO GARCIA AND I AM 19 YEARS OF AGE. I WAS RAISED
-            BY MY TWO LOVELY PARENTS AND AM THE ELDEST OF 3. WHEN IT COMES TO
-            LIFE, I PLAN TO GET TO WHERE I WANNA BE, AND WILL DO SO. I ENJOY
-            MOVING FORWARD, ADVENTURE, CREATING, COMPETING, LAUGHING AND MUCH
-            MORE.
+            ABOUT...
+            
           </p>
           <a className="about__resumeLink" href={SVResume} download>
             RESUME
