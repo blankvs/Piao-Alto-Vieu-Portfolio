@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Document, Page } from 'react-pdf';
-import SVResume from '../assets/SVResume.pdf'
+import LResume from '../assets/Resume.pdf'
 
 function Resume() {
   const [numPages, setNumPages] = useState(null);
@@ -13,7 +13,7 @@ function Resume() {
   return (
     <div>
       <Document
-        file={SVResume}
+        file={LResume}
         onLoadSuccess={onDocumentLoadSuccess}
         download
       >

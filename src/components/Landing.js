@@ -119,7 +119,7 @@ function Landing() {
               <div>
                 <h1 className="LandingH1Name">SERGIO GARCIA</h1>
                 <h1 className="LandingH1Description">
-                  WEB DEVELOPER || DESIGNER
+                  WEB DEVELOPER || DIGITAL MEDIA SPECIALIST 
                 </h1>
               </div>
             </div>
