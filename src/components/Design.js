@@ -10,6 +10,24 @@ import SPOT from "../assets/SPOT.png"
 import LT from "../assets/LT.jpg"
 import AM from "../assets/AM.png"
 import SC from "../assets/SC.png"
+import FL from "../assets/FL.jpg"
+import MM from "../assets/MM.jpg"
+import WW from "../assets/WW.jpg"
+import IS from "../assets/IS.png"
+import FFF from "../assets/FFF.png"
+import TTT from "../assets/TTT.png"
+import TTS from "../assets/TTS.JPG"
+import UTUT from "../assets/UTUT.PNG"
+import IMG from "../assets/IMG.jpg"
+
+
+
+
+
+
+
+
+
 
 import { Helmet } from "react-helmet"
 
@@ -118,6 +136,22 @@ function Design() {
       </div>
       <div className="cover-formatter">
         <div className="tdwtsut-div">
+          <img className="tdwtsut-cover" loading="lazy" src={MM}></img>
+          <h1 className="tdwtsut-title">"LET ME BE THE SUN TO YOUR MOONSHINE"</h1>
+        </div>
+        <div className="tdwtsut-div">
+          <img className="tdwtsut-cover" loading="lazy" src={FL} />
+          <h1 className="tdwtsut-title">
+            "SOUL REAPER"
+          </h1>
+        </div>
+        <div className="ss-div">
+          <img className="ss-cover" loading="lazy" src={WW} />
+          <h1 className="ss-title">"SHE CAME HOME WITH"</h1>
+        </div>
+      </div>
+      <div className="cover-formatter">
+        <div className="tdwtsut-div">
           <img className="tdwtsut-cover" loading="lazy" src={LT}></img>
           <h1 className="tdwtsut-title">(ALBUM) "LAS TUYAS"</h1>
         </div>
@@ -132,11 +166,43 @@ function Design() {
           <h1 className="ss-title">"SHORTT SWEETT"</h1>
         </div>
       </div>
-
+      <div className="cover-formatter">
+        <div className="tdwtsut-div">
+          <img className="tdwtsut-cover" loading="lazy" src={IS}></img>
+          <h1 className="tdwtsut-title">"I SHOULD LEAVE"</h1>
+        </div>
+        <div className="tdwtsut-div">
+          <img className="tdwtsut-cover" loading="lazy" src={FFF} />
+          <h1 className="tdwtsut-title">
+            "FIT"
+          </h1>
+        </div>
+        <div className="ss-div">
+          <img className="ss-cover" loading="lazy" src={TTT} />
+          <h1 className="ss-title">"TEENAGE TAPES"</h1>
+        </div>
+      </div>
+      <div className="cover-formatter">
+        <div className="tdwtsut-div">
+          <img className="tdwtsut-cover" loading="lazy" src={TTS}></img>
+          <h1 className="tdwtsut-title">"THIS THE HOW I SAW IN MY DREAMS"</h1>
+        </div>
+        <div className="tdwtsut-div">
+          <img className="tdwtsut-cover" loading="lazy" src={UTUT} />
+          <h1 className="tdwtsut-title">
+            "UNFAIR THERAPY"
+          </h1>
+        </div>
+        <div className="ss-div">
+          <img className="ss-cover" loading="lazy" src={IMG} />
+          <h1 className="ss-title">"TIME KILLS ALL"</h1>
+        </div>
+      </div>
       <div className="footer">
         <h1 className="cc">© 2021 PiaoAltoVieu.</h1>
       </div>
     </div>
+
   )
 }
 

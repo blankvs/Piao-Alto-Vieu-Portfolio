@@ -58,7 +58,11 @@ function Contact() {
   }
 
   return (
-    <div className="Yeah" loading="lazy" style={{ backgroundImage: `url(${WATER})` }}>
+    <div
+      className="Yeah"
+      loading="lazy"
+      style={{ backgroundImage: `url(${WATER})` }}
+    >
       <Helmet>
         <title>PiaoAltoVieu - Contact.</title>
         <meta name="Contact" content="Contact information" />
@@ -104,6 +108,11 @@ function Contact() {
       </div>
       {menu}
       <h1 className="contactH1">CONTACT</h1>
+      <div className="orgsub">
+        <h2 className="sub">Phone: 385-231-8503 </h2>
+        <h2 className="sub">Email: sgarcia.vieu@gmail.com </h2>
+      </div>
+
       {/* <h1 className="emailH1">SERGIOVEGAP12@GMAIL.COM</h1> */}
 
       {/* <form className="contact__form" onSubmit={handleSubmit(onSubmitForm)}>

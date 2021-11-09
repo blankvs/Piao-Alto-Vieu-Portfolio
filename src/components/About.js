@@ -8,6 +8,7 @@ import Linkedin from "../assets/Linkedin.png"
 import Three from "../assets/Three.png"
 import "../css/About.css"
 import FAMILY from "../assets/FAMILY.jpg"
+import US from "../assets/US.jpg"
 import { Helmet } from "react-helmet"
 import SVResume from "../assets/SVResume.pdf"
 
@@ -101,11 +102,12 @@ function About() {
 
       <h2 className="about-header">ABOUT</h2>
       <div className="about-formatter">
-        <img className="family-image" loading="lazy" src={FAMILY} alt={FAMILY}></img>
+        <img className="family-image" loading="lazy" src={US} alt={US}></img>
         <div className="about__formatter">
           <p className="bio-paragraph">
             {" "}
-            ABOUT...
+            A private guy who enjoys of life with his set of passions, love for memories and appetite for adrenaline & adventure. Always seeking more... 
+            
             
           </p>
           <a className="about__resumeLink" href={SVResume} download>
