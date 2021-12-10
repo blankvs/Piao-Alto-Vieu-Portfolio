@@ -36,11 +36,11 @@ function About() {
               WEBSITES
             </Link>
           </p>
-          <p>
+          {/* <p>
             <Link className="LinkWebsitesMob" to="/Music">
               MUSIC
             </Link>
-          </p>
+          </p> */}
           <p>
             <Link className="LinkWebsitesMob" to="/Contact">
               CONTACT
@@ -86,11 +86,11 @@ function About() {
               WEBSITES
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link className="LinkDesign" to="/Music">
               MUSIC
             </Link>
-          </li>
+          </li> */}
           <li>
             <Link className="LinkContact" to="/Contact">
               CONTACT
@@ -106,7 +106,7 @@ function About() {
         <div className="about__formatter">
           <p className="bio-paragraph">
             {" "}
-            A private guy who enjoys of life with his set of passions, love for memories and appetite for adrenaline & adventure. Always seeking more... 
+            Always seeking more! Passionate and hungry, working to become a better me every day along with bettering all the people around me. Having fun with life and creating long lasting memories on this beautiful planet and once again, with the beautiful people around me
             
             
           </p>

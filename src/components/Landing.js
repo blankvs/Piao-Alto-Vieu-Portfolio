@@ -43,11 +43,11 @@ function Landing() {
               WEBSITES
             </Link>
           </p>
-          <p>
+          {/* <p>
             <Link className="LinkWebsitesMob" to="/Music">
               MUSIC
             </Link>
-          </p>
+          </p> */}
           <p>
             <Link className="LinkWebsitesMob" to="/Contact">
               CONTACT
@@ -96,11 +96,11 @@ function Landing() {
                   WEBSITES
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link className="LinkDesign" to="/Music">
                   MUSIC
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link className="LinkContact" to="/Contact">
                   CONTACT
