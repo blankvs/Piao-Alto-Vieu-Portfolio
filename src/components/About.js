@@ -106,7 +106,7 @@ function About() {
         <div className="about__formatter">
           <p className="bio-paragraph">
             {" "}
-            Always seeking more! Passionate and hungry, working to become a better me every day along with bettering all the people around me. Having fun with life and creating long lasting memories on this beautiful planet and once again, with the beautiful people around me
+            Always seeking more! Passionate and hungry, working to become a better me every day along with bettering all the people around me. Having fun with life and creating long lasting memories on this beautiful planet with once again, the beautiful people around me
             
             
           </p>
